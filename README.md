@@ -9,8 +9,9 @@ Hiçbir sunucuya veya arka plan yazılımına ihtiyaç duymaz; tüm işlemler ve
 ---
 ### 🚀 Hemen Kullanmaya Başlayın
 
-* **🌐 Tarayıcıda Aç (Canlı Web Sürümü):** <a href="https://github.io" target="_blank">M3U Studio Pro v77 Başlat</a> *(HTTPS yayınlar ve yerel dosya sürükle-bırak için idealdir)*
-* **📥 Bilgisayara İndir (Tam Çevrimdışı / HTTP Destekli):** <a href="https://githubusercontent.com" target="_blank">index.html Dosyasını İndir</a> *(Bağlantıya sağ tıklayıp **"Farklı kaydet"** diyerek bilgisayarınıza indirebilir ve çift tıklayarak açabilirsiniz)*
+* **🌐 Tarayıcıda Aç (Canlı Web Sürümü):** [M3U Studio Pro v77 Başlat](https://github.io) *(HTTPS yayınlar ve yerel dosya sürükle-bırak için idealdir)*
+* **📥 Bilgisayara İndir (Tam Çevrimdışı / HTTP Destekli):** [index.html Dosyasını İndir](https://githubusercontent.com) *(Bağlantıya sağ tıklayıp **"Farklı kaydet"** diyerek bilgisayarınıza indirebilir ve çift tıklayarak açabilirsiniz)*
+
 
 ---
 
