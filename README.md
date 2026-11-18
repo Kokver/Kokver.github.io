@@ -9,8 +9,8 @@ Hiçbir sunucuya veya arka plan yazılımına ihtiyaç duymaz; tüm işlemler ve
 ---
 ### 🚀 Hemen Kullanmaya Başlayın
 
-* **🌐 Tarayıcıda Aç (Canlı Web Sürümü):** https://github.io
-* **📥 Bilgisayara İndir (Tam Çevrimdışı / HTTP Destekli):** https://githubusercontent.com
+* **🌐 Tarayıcıda Aç (Canlı Web Sürümü):** [https://github.io](https://kokver.github.io/index.html)
+* **📥 Bilgisayara İndir (Tam Çevrimdışı / HTTP Destekli):** [https://githubusercontent.com](https://raw.githubusercontent.com/Kokver/Kokver.github.io/main/index.html)
 ---
 
 ### ✨ Öne Çıkan Özellikler
