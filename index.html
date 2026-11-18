@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>M3U Studio Pro v66</title>
+<title>M3U Studio Pro v77</title>
 <style>
 :root{
  --bg:#080d18;--panel:#10182a;--panel2:#141f35;--panel3:#0b1221;--line:#293956;
@@ -40,17 +40,17 @@ main{min-height:0;padding:6px;display:grid;grid-template-columns:minmax(0,1fr);g
 .group{display:flex;justify-content:space-between;gap:8px;padding:7px 8px;border-radius:7px;cursor:pointer}.group:hover,.group.active{background:#182741}.group span:last-child{color:#8292ad}
 .center{display:flex;flex-direction:column}
 .statsStrip{display:grid;grid-template-columns:repeat(12,minmax(72px,1fr));gap:5px;padding:5px 6px;border-bottom:1px solid var(--line);background:#0b1424}.statsStrip .counter{min-width:0}.counters{display:grid;grid-template-columns:repeat(9,minmax(75px,1fr));gap:5px;padding:5px 6px;border-bottom:1px solid var(--line);background:#0d1627}
-.counter{background:#111e33;border:1px solid #34496b;border-radius:8px;padding:5px 7px;min-width:0;text-align:center;overflow:hidden}.counter b{font-size:18px;line-height:20px;display:block;font-weight:800;color:#ffffff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.counter span{display:block;font-size:10px;line-height:12px;color:#d5deeb;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.groupMenu{width:min(470px,calc(100vw - 24px));padding:8px;z-index:1000}.groupTools{display:flex;gap:6px;flex-wrap:wrap;padding:6px 2px;border-bottom:1px solid #263653;margin-bottom:5px}.groupTools button{color:#f3f7fc;font-weight:700;font-size:11px}.groupChecks{max-height:360px;overflow:auto}.groupCheck{display:flex;align-items:center;gap:9px;padding:9px 8px;border-radius:7px;font-size:14px;cursor:pointer}.groupCheck:hover{background:#182741}.groupCheck input{width:17px;height:17px}.groupCount{margin-left:auto;color:#d0d9e6;font-size:11px}.groupEmpty{padding:12px;color:#8292ad;text-align:center}.scanModal{width:min(980px,95vw)}.scanHero{padding:14px}.scanTop{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.scanTop .scanButtons{margin-left:auto}.scanProgress{height:14px;background:#07101c;border:1px solid #263957;border-radius:999px;overflow:hidden;margin:12px 0}.scanProgress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2),var(--cyan));transition:width .15s}.scanGrid{display:grid;grid-template-columns:repeat(8,minmax(80px,1fr));gap:6px}.scanGrid .stat{background:#0b1322;border:1px solid #22314d;border-radius:9px;padding:8px}.scanGrid .stat b{display:block;font-size:17px}.scanGrid .stat small{color:var(--muted);font-size:10px}.scanLogLarge{font-size:11px;color:#cbd6e4;height:180px;overflow:auto;background:#080e19;border:1px solid #202d46;border-radius:8px;padding:8px;margin-top:10px}.groupFilterDrop{margin-left:auto}.groupFilterDrop>button{color:#f3f7fc;font-weight:700;font-weight:700}.groupFilterDrop .menu{left:0;right:auto;max-height:min(70vh,620px);overflow:auto}.groupLabel{font-size:14px;font-weight:700}.groupSelectedBadge{color:#55a7ff;margin-left:5px}.filters{align-items:center;position:relative}.filters>.groupFilterDrop{flex:0 0 auto}.filters>.scanInline{min-width:0;flex:1 1 700px}.filters>select,.filters>button{flex:0 0 auto}.tableHead{color:#f1f5fb;font-weight:800;grid-template-columns:34px 43px minmax(220px,1.7fr) minmax(150px,1fr) minmax(150px,.8fr) minmax(150px,.9fr) minmax(300px,2fr) 92px}.row{grid-template-columns:34px 43px minmax(220px,1.7fr) minmax(150px,1fr) minmax(150px,.8fr) minmax(150px,.9fr) minmax(300px,2fr) 92px}
+.counter{background:#111e33;border:1px solid #34496b;border-radius:8px;padding:5px 7px;min-width:0;text-align:center;overflow:hidden}.counter b{font-size:18px;line-height:20px;display:block;font-weight:800;color:#ffffff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.counter span{display:block;font-size:10px;line-height:12px;color:#d5deeb;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.groupMenu{width:min(470px,calc(100vw - 24px));padding:8px;z-index:1000}.groupTools{display:flex;gap:6px;flex-wrap:wrap;padding:6px 2px;border-bottom:1px solid #263653;margin-bottom:5px}.groupTools button{color:#f3f7fc;font-weight:700;font-size:11px}.groupChecks{max-height:360px;overflow:auto}.groupCheck{display:flex;align-items:center;gap:9px;padding:9px 8px;border-radius:7px;font-size:14px;cursor:pointer}.groupCheck:hover{background:#182741}.groupCheck input{width:17px;height:17px}.groupCount{margin-left:auto;color:#d0d9e6;font-size:11px}.groupEmpty{padding:12px;color:#8292ad;text-align:center}.scanModal{width:min(980px,95vw)}.scanHero{padding:14px}.scanTop{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.scanTop .scanButtons{margin-left:auto}.scanProgress{height:14px;background:#07101c;border:1px solid #263957;border-radius:999px;overflow:hidden;margin:12px 0}.scanProgress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2),var(--cyan));transition:width .15s}.scanGrid{display:grid;grid-template-columns:repeat(8,minmax(80px,1fr));gap:6px}.scanGrid .stat{background:#0b1322;border:1px solid #22314d;border-radius:9px;padding:8px}.scanGrid .stat b{display:block;font-size:17px}.scanGrid .stat small{color:var(--muted);font-size:10px}.scanLogLarge{font-size:11px;color:#cbd6e4;height:180px;overflow:auto;background:#080e19;border:1px solid #202d46;border-radius:8px;padding:8px;margin-top:10px}.groupFilterDrop{margin-left:auto}.groupFilterDrop>button{color:#f3f7fc;font-weight:700;font-weight:700}.groupFilterDrop .menu{left:0;right:auto;max-height:min(70vh,620px);overflow:auto}.groupLabel{font-size:14px;font-weight:700}.groupSelectedBadge{color:#55a7ff;margin-left:5px}.filters{align-items:center;position:relative}.filters>.groupFilterDrop{flex:0 0 auto}.filters>.scanInline{min-width:0;flex:1 1 700px}.filters>select,.filters>button{flex:0 0 auto}.tableHead{color:#f1f5fb;font-weight:800;grid-template-columns:34px 43px minmax(190px,1.65fr) minmax(105px,.8fr) minmax(82px,.65fr) minmax(82px,.65fr) minmax(220px,1.8fr) 128px}.row{grid-template-columns:34px 43px minmax(190px,1.65fr) minmax(105px,.8fr) minmax(82px,.65fr) minmax(82px,.65fr) minmax(220px,1.8fr) 128px}
 .searchbar{display:flex;gap:6px;padding:7px;border-bottom:1px solid var(--line)}.searchbar input{flex:0 1 320px;max-width:320px;background:#080f1c;border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 10px}
 .filters{display:flex;gap:5px;flex-wrap:wrap;padding:6px;border-bottom:1px solid var(--line)}.filters select{background:#0a1120;color:var(--text);border:1px solid var(--line);border-radius:7px;padding:6px}
-.tableHead{color:#f1f5fb;font-weight:800;height:32px;display:grid;grid-template-columns:34px 43px minmax(220px,1.7fr) minmax(150px,1fr) minmax(150px,.8fr) minmax(150px,.9fr) minmax(300px,2fr) 92px;align-items:center;gap:6px;padding:0 7px;background:#17223a;color:#aebbd0;border-bottom:1px solid var(--line);font-size:11px}
-.list{position:relative;overflow:auto;min-height:0;flex:1}.rows{position:relative}.row{height:44px;position:absolute;left:0;right:0;display:grid;grid-template-columns:34px 43px minmax(220px,1.7fr) minmax(150px,1fr) minmax(150px,.8fr) minmax(150px,.9fr) minmax(300px,2fr) 92px;align-items:center;gap:6px;padding:0 7px;border-bottom:1px solid #1a2740;background:#10182a}.row:hover{background:#17253e}.row.selected{background:#1c3557;box-shadow:inset 3px 0 var(--accent)}
+.tableHead{color:#f1f5fb;font-weight:800;height:32px;display:grid;grid-template-columns:34px 43px minmax(190px,1.65fr) minmax(105px,.8fr) minmax(82px,.65fr) minmax(82px,.65fr) minmax(220px,1.8fr) 128px;align-items:center;gap:6px;padding:0 7px;background:#17223a;color:#aebbd0;border-bottom:1px solid var(--line);font-size:11px}
+.list{position:relative;overflow:auto;min-height:0;flex:1}.rows{position:relative}.row{height:44px;position:absolute;left:0;right:0;display:grid;grid-template-columns:34px 43px minmax(190px,1.65fr) minmax(105px,.8fr) minmax(82px,.65fr) minmax(82px,.65fr) minmax(220px,1.8fr) 128px;align-items:center;gap:6px;padding:0 7px;border-bottom:1px solid #1a2740;background:#10182a}.row:hover{background:#17253e}.row.selected{background:#1c3557;box-shadow:inset 3px 0 var(--accent)}
 .cell{color:#eef3f9;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.editableCell{cursor:text}.editableCell:hover{background:#20324f;outline:1px solid #35557f;border-radius:4px}.inlineEdit{width:100%;box-sizing:border-box;background:#07101c;color:#fff;border:1px solid var(--accent);border-radius:4px;padding:5px 7px;font:inherit;outline:none}.name{font-weight:750;font-size:14px}.muted{color:var(--muted)}.url{font-size:11px;color:#a8bad5}.num{color:#ffffff;text-align:right;font-size:15px;font-weight:800}.rowBtns{display:flex;justify-content:flex-end;gap:4px}.rowBtns button{color:#f3f7fc;font-weight:700;padding:5px 6px;font-size:12px}.play{background:#122e2c}.play.opened{background:#263d68;border-color:#4f83c7}.play.closed{background:#164a38;border-color:#35a978;color:#9ff0c8}.copy{background:#17233a}.row.backupBest{background:linear-gradient(90deg,#173b29,#10182a)!important;box-shadow:inset 3px 0 #65d08a}.row.backupBest:hover{background:linear-gradient(90deg,#1d4a32,#17253e)!important}.backupBadge{display:inline-block;margin-left:6px;padding:1px 5px;border-radius:5px;background:#246b40;color:#c0f4d0;font-size:9px;font-weight:800;vertical-align:1px}
 .statusdot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;background:#64738e}.live{background:var(--good)}.dead{background:var(--bad)}.unknown{background:var(--warn)}
 .right .scanbox{display:none}.right .scanbox{margin:10px;padding:10px;background:#0a1220;border:1px solid #233452;border-radius:10px}.scanbox h4{margin:0 0 8px}.scanstats{display:grid;grid-template-columns:1fr 1fr;gap:6px}.scanstats .stat b{font-size:18px}
 .log{font-size:11px;color:#cbd6e4;max-height:180px;overflow:auto;background:#080e19;border:1px solid #202d46;border-radius:8px;padding:7px;margin-top:8px}
 footer{height:28px;display:flex;align-items:center;justify-content:space-between;padding:0 10px;border-top:1px solid var(--line);background:#09111f;color:#8796b0;font-size:11px}
-.modalBack{position:fixed;inset:0;display:none;z-index:100}.modalBack.show{display:flex;align-items:center;justify-content:center;background:#0009}.modal{width:min(820px,94vw);max-height:91vh;overflow:auto;background:#111b2f;border:1px solid #405473;border-radius:14px;box-shadow:0 30px 100px #000d}.modal h2{margin:0;padding:13px 16px;border-bottom:1px solid var(--line);font-size:16px}.form{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px}.field{display:flex;flex-direction:column;gap:4px}.field.full{grid-column:1/-1}.field label{font-size:11px;color:#9eacc5}.field input,.field textarea,.field select{background:#080f1d;border:1px solid var(--line);color:var(--text);border-radius:7px;padding:8px}.field textarea{min-height:75px}.modalFoot{display:flex;justify-content:flex-end;gap:7px;padding:11px 14px;border-top:1px solid var(--line)}
+.modalBack{position:fixed;inset:0;display:none;z-index:1000;pointer-events:none}.modalBack.show{pointer-events:auto}.modalBack.show{display:flex;align-items:center;justify-content:center;background:#0009}.modal{position:relative;z-index:1001;width:min(820px,94vw);max-height:91vh;overflow:auto;background:#111b2f;border:1px solid #405473;border-radius:14px;box-shadow:0 30px 100px #000d}.modal h2{margin:0;padding:13px 16px;border-bottom:1px solid var(--line);font-size:16px}.form{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px}.field{display:flex;flex-direction:column;gap:4px}.field.full{grid-column:1/-1}.field label{font-size:11px;color:#9eacc5}.field input,.field textarea,.field select{background:#080f1d;border:1px solid var(--line);color:var(--text);border-radius:7px;padding:8px}.field textarea{min-height:75px}.modalFoot{display:flex;justify-content:flex-end;gap:7px;padding:11px 14px;border-top:1px solid var(--line)}
 
 .toast{position:fixed;right:18px;bottom:40px;background:#17233b;border:1px solid #405777;padding:9px 13px;border-radius:9px;box-shadow:var(--shadow);display:none;z-index:300}.toast.show{display:block}
 .dupList{padding:12px;max-height:60vh;overflow:auto}.dupGroup{border:1px solid #283955;border-radius:10px;margin-bottom:8px;padding:9px;background:#0c1423}.dupUrl{font-size:11px;word-break:break-all;color:#a9b9d0;margin-bottom:7px}.dupItem{display:grid;grid-template-columns:30px 1fr auto;gap:7px;align-items:center;padding:5px;border-radius:6px}.dupItem:hover{background:#16243d}.scanButtons{display:flex;gap:6px;flex-wrap:wrap}
@@ -61,7 +61,7 @@ footer{height:28px;display:flex;align-items:center;justify-content:space-between
 .scanInline button{padding:7px 9px;font-size:12px;white-space:nowrap}.scanInline .scanMini{font-size:12px}.scanInline .scanMiniTime{font-size:12px}.scanMini{font-size:11px;color:#d8e2ef;white-space:nowrap;margin-left:2px}.scanMiniTime{font-size:11px;color:#9fb0c7;white-space:nowrap}.scanMiniBar{width:90px;height:7px;background:#07101c;border:1px solid #263957;border-radius:99px;overflow:hidden;flex:0 0 90px}.scanMiniBar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2),var(--cyan));transition:width .15s}
 .dupGroup{padding:12px 14px}.dupChannel{display:grid;grid-template-columns:26px 1fr;gap:8px;padding:9px 0;border-top:1px solid #23324c}.dupChannel:first-of-type{border-top:0}.dupChannelName{font-size:14px;font-weight:800;color:#f4f7fb}.dupChannelUrl{font-size:13px;line-height:1.45;color:#d8e4f2;word-break:break-all;margin-top:4px}.dupKeep{color:#7ee2a8;font-weight:800;font-size:11px}.dupDelete{color:#ff9b9b;font-weight:800;font-size:11px}.dupChannel.dupChosen{background:rgba(68,190,118,.12);border-left:4px solid #4fd28a;padding-left:7px;border-radius:7px}.dupChannel input{accent-color:#4fd28a;width:18px;height:18px}.dupHint{font-size:10px;color:#a8b8cd}.dupLive{font-size:10px;font-weight:900;color:#69e49c;margin-left:5px}
 @media(max-width:1200px){.scanInline{min-width:300px}.scanMini{display:none}}
-.modalHead{display:flex;align-items:center;justify-content:space-between;gap:10px}.previewModalBox{width:min(1100px,94vw)}#previewVideo{width:100%;max-height:72vh;background:#000;border-radius:10px;margin-top:8px}.previewUrl{margin-top:8px;color:#b8c7d9;font-size:12px;word-break:break-all}.contextModalBox{width:min(900px,94vw)}#ctxInfo{width:100%;height:190px;box-sizing:border-box;background:#070e18;color:#eaf1fa;border:1px solid #30415e;border-radius:8px;padding:10px;font-family:Consolas,monospace;font-size:12px;resize:vertical}.modalActions{display:flex;justify-content:flex-end;gap:8px;margin-top:10px}.scanInline{position:relative}.scanInline .scanMiniBar{flex:1 1 100px;min-width:70px;max-width:180px}.scanInline button{cursor:pointer}.groupMenu{box-sizing:border-box;max-width:calc(100vw - 20px)}
+.modalHead{display:flex;align-items:center;justify-content:space-between;gap:10px}.previewModalBox{width:min(1100px,94vw)}#previewVideo{width:100%;max-height:72vh;background:#000;border-radius:10px;margin-top:8px}.previewUrl{margin-top:8px;color:#b8c7d9;font-size:12px;word-break:break-all}.contextModalBox{width:min(900px,94vw)}#ctxInfo{width:100%;height:190px;box-sizing:border-box;background:#070e18;color:#eaf1fa;border:1px solid #30415e;border-radius:8px;padding:10px;font-family:Consolas,monospace;font-size:12px;resize:vertical}.modalActions{display:flex;justify-content:flex-end;gap:8px;margin-top:10px}.scanInline{position:relative}.scanInline .scanMiniBar{flex:1 1 120px;min-width:90px;max-width:240px}.scanInline .scanMini{order:1}.scanInline .scanMiniTime{order:2}.scanInline .scanMiniBar{order:3}.scanInline button{order:4}.scanInline button{cursor:pointer}.groupMenu{box-sizing:border-box;max-width:calc(100vw - 20px)}
 /* v53: bağımsız sürükleme kolu — tik alanı ve ön izleme korunur */
 .checkWrap{position:relative;width:34px;height:44px;display:flex;align-items:center;justify-content:center}
 .checkWrap .checkHit{position:absolute;left:0;top:7px;width:30px;height:30px;z-index:2}
@@ -73,6 +73,45 @@ footer{height:28px;display:flex;align-items:center;justify-content:space-between
 .manualDropLine.show{display:block}
 .dragHint{position:fixed;display:none;z-index:500;background:#172b48;border:1px solid #4c78aa;color:#fff;border-radius:8px;padding:7px 10px;font-weight:800;pointer-events:none;box-shadow:0 8px 25px #0009}
 .dragHint.show{display:block}
+
+/* v67 compact top controls + docked preview */
+.topbar{display:flex;align-items:center;gap:5px;flex-wrap:wrap;padding:5px 7px;background:#0d1728;border-bottom:1px solid var(--line)}
+.topbar button,.topbar select{padding:5px 8px;font-size:11px;min-height:30px}
+.topbar .sep{height:24px;margin:0 2px}
+.topbar .shortcutHint{margin-left:auto;font-size:10px;color:#aebbd0;white-space:nowrap}
+.statsStrip{padding:4px 6px;gap:4px}.statsStrip .counter{padding:3px 6px;border-radius:6px}.statsStrip .counter b{font-size:16px;line-height:18px}.statsStrip .counter span{font-size:9px;line-height:11px}
+.listStage{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:8px;align-items:stretch;padding:0 6px 6px;flex:1;min-height:0;overflow:hidden}
+.tablePane{min-width:0;display:flex;flex-direction:column;min-height:0;height:100%;overflow:hidden}
+.tablePane .tableHead{margin:0}.tablePane .list{min-width:0}
+.previewDock{background:#07101c;border:1px solid #2e4160;border-radius:10px;overflow:hidden;min-width:0;align-self:start;position:sticky;top:6px;z-index:4}
+.previewDockHead{display:flex;align-items:center;gap:5px;padding:6px 7px;background:#0d182b;border-bottom:1px solid #263957}
+.previewDockHead h3{margin:0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;color:#f1f5fb}
+.previewDockHead button{padding:4px 7px;font-size:11px}
+.previewDockVideo{width:100%;height:205px;background:#000;display:block;object-fit:contain}
+.previewDockUrl{padding:5px 7px;font-size:10px;color:#9fb0c7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-bottom:1px solid #233452}
+.previewDockControls{padding:6px;display:flex;flex-wrap:wrap;gap:5px;border-bottom:1px solid #233452}
+.previewDockControls button,.previewDockControls select{padding:5px 7px;font-size:10px}
+.previewDockSub{display:flex;gap:5px;align-items:center;padding:6px;border-bottom:1px solid #233452}.previewDockSub select{min-width:0;flex:1}
+.previewDockStatus{padding:5px 7px;font-size:10px;color:#aebbd0;min-height:14px}
+.previewDock.mode-alt .previewDockVideo{display:none}.previewIframe{width:100%;height:205px;border:0;background:#000;display:none}.previewDock.mode-iframe .previewDockVideo{display:none}.previewDock.mode-iframe .previewIframe{display:block}
+@media(max-width:1100px){.listStage{grid-template-columns:minmax(0,1fr) 300px}.previewDockVideo,.previewIframe{height:180px}}
+@media(max-width:850px){.listStage{grid-template-columns:1fr}.previewDock{position:relative;top:auto}.previewDockVideo,.previewIframe{height:220px}.topbar .shortcutHint{display:none}}
+
+
+.modeDot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-left:5px;background:#777;box-shadow:0 0 0 1px rgba(255,255,255,.18) inset}.modeDot.on{background:#28c76f;box-shadow:0 0 8px rgba(40,199,111,.65)}button.activeMode{border-color:#28c76f!important;box-shadow:0 0 0 1px rgba(40,199,111,.35) inset}.statePill{display:inline-block;min-width:38px;padding:1px 6px;border-radius:10px;font-size:11px;font-weight:800}.statePill.on{background:#176b42;color:#dfffea}.statePill.off{background:#5b2b35;color:#ffdfe4}
+
+/* v73: menu/modal interaction hardening */
+#cleanDrop{z-index:3000}
+#cleanDrop.open{z-index:5000}
+#cleanDrop.open .menu{z-index:5001}
+.modalBack.show{z-index:10000!important;pointer-events:auto!important}
+.modalBack.show .modal,.modalBack.show button,.modalBack.show input,.modalBack.show textarea,.modalBack.show select{pointer-events:auto!important}
+.contextModalBox,.modal{pointer-events:auto}
+.scanInline{display:flex;align-items:center;gap:7px}
+.scanInline .scanButtons{order:0;margin-left:0;display:flex;gap:6px;flex-wrap:wrap}
+.scanInline .scanMini{order:1}
+.scanInline .scanMiniTime{order:2}
+.scanInline .scanMiniBar{order:3}
 </style>
 <style>
 ::placeholder{color:#b8c5d5!important;opacity:1}
@@ -88,30 +127,63 @@ footer{height:28px;display:flex;align-items:center;justify-content:space-between
 .row.dropTarget{box-shadow:inset 0 3px #55a7ff!important}
 .dragHint{position:fixed;display:none;z-index:500;background:#172b48;border:1px solid #4c78aa;color:#fff;border-radius:8px;padding:7px 10px;font-weight:800;pointer-events:none;box-shadow:0 8px 25px #0009}
 .dragHint.show{display:block}.checkHit,.checkHit *{-webkit-user-drag:none;user-select:none}.checkHit{touch-action:none}.checkHit input{pointer-events:none;width:16px;height:16px;margin:0;cursor:pointer;accent-color:#39a7ff}.dragPlaceholder{position:absolute;left:7px;right:7px;height:40px;border:2px dashed #55a7ff;border-radius:7px;background:rgba(85,167,255,.10);box-sizing:border-box;pointer-events:none;z-index:18}.row.dragShift{transition:transform .12s ease}.row.dragSelected{opacity:.45;filter:saturate(.8)}.rowBtns .previewBtn{background:#252039}.rowBtns .previewBtn.viewed{background:#6845a8!important;border-color:#a982e7;color:#fff}.rowBtns .copy.copied{background:#8a5a20!important;border-color:#e6ad5b;color:#fff}
+
+/* v67 UI düzeni */
+header{display:flex;align-items:center;gap:10px;min-width:0}
+.headerMainTools{margin-left:auto;display:flex;align-items:center;justify-content:flex-end;gap:4px;min-width:0}
+.headerMainTools button{padding:5px 7px;font-size:11px}
+.headerMainTools .good{background:#123b2e;border-color:#286b54}
+.headerMainTools #sameLinksBtn{background:#173452;border-color:#2d638e}
+.headerMainTools #appendListBtn{background:#183d31;border-color:#2f7d5d}
+.topbar{display:flex;align-items:center;min-height:32px;padding:2px 6px}
+.topbar .scanInline{margin-left:auto}
+.listToolbar{display:flex;align-items:center;gap:5px;padding:4px 6px;border-bottom:1px solid #263957;min-width:0}
+.listToolbar>button,.listToolbar .groupFilterDrop>button{padding:5px 8px;font-size:11px}
+.compactSearch{margin-left:auto;width:min(240px,25vw);display:flex}
+.statsStrip{padding:3px 6px;gap:3px}
+.statsStrip .counter{padding:2px 6px}
+.statsStrip .counter b{font-size:15px;line-height:17px}
+.statsStrip .counter span{font-size:8px;line-height:10px}
+.previewDockControls{display:flex;flex-wrap:nowrap}
+.previewDockControls button{flex:1 1 0;min-width:0}
+@media(max-width:1250px){.headerMainTools button{padding:4px 5px;font-size:10px}.headerMainTools{gap:3px}.listToolbar{gap:3px}.listToolbar>button,.listToolbar .groupFilterDrop>button{padding:4px 6px;font-size:10px}}
+@media(max-width:900px){.headerMainTools{max-width:78%;overflow:auto}.compactSearch{width:180px}}
+
+.headerMainTools #openBtn{background:#234b78;border-color:#3b78b5}.headerMainTools #newBtn{background:#44365d;border-color:#6f5a91}.headerMainTools #undoBtn,.headerMainTools #redoBtn{background:#303b52}.listToolbar #addBtn{background:#184d3b;border-color:#2f8a68}.listToolbar #sortBtn{background:#3d3a20;border-color:#756f2f}.listToolbar #selectVisible{background:#174b77;border-color:#2f78b0}.listToolbar #selectNone{background:#4a3b22;border-color:#846d3b}.listToolbar #deleteSelectedBtn{background:#51222e;border-color:#8a3d50}
+
+/* v69 düzeltmeleri: büyük liste ekleme, liste kaydırma ve işlem düğmeleri */
+.listStage{flex:1!important;min-height:0!important;overflow:hidden!important}
+.tablePane{height:100%!important;min-height:0!important;overflow:hidden!important}
+.tablePane .list{height:auto!important;min-height:0!important;overflow:auto!important;flex:1 1 auto!important}
+.tableHead,.row{grid-template-columns:34px 43px minmax(190px,1.55fr) minmax(100px,.75fr) minmax(72px,.55fr) minmax(72px,.55fr) minmax(210px,1.75fr) 128px!important}
+.rowBtns{min-width:128px!important;justify-content:flex-end!important}
+.rowBtns button{min-width:36px!important;padding:5px 6px!important}
+@media(max-width:1200px){.listStage{grid-template-columns:minmax(0,1fr) 315px}.tableHead,.row{grid-template-columns:34px 40px minmax(175px,1.45fr) minmax(88px,.7fr) 68px 68px minmax(180px,1.55fr) 120px!important}.rowBtns{min-width:120px!important}.rowBtns button{min-width:34px!important;padding:4px 5px!important}}
+@media(max-width:900px){.listStage{grid-template-columns:1fr;overflow:auto}.previewDock{position:relative;top:auto}.tableHead,.row{grid-template-columns:32px 38px minmax(170px,1.4fr) 90px 64px 64px minmax(170px,1.5fr) 116px!important}}
+
+.modeDot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-left:5px;background:#777;box-shadow:0 0 0 1px rgba(255,255,255,.18) inset}.modeDot.on{background:#28c76f;box-shadow:0 0 8px rgba(40,199,111,.65)}button.activeMode{border-color:#28c76f!important;box-shadow:0 0 0 1px rgba(40,199,111,.35) inset}.statePill{display:inline-block;min-width:38px;padding:1px 6px;border-radius:10px;font-size:11px;font-weight:800}.statePill.on{background:#176b42;color:#dfffea}.statePill.off{background:#5b2b35;color:#ffdfe4}
 </style>
-</head>
+<style id="v73-layout-fix">
+/* v73: keep Clean submenu above controls and tighten scan toolbar */
+#cleanMenu{z-index:10050!important;}
+.clean-menu,.dropdown-menu,.menu-panel{z-index:10050!important;}
+#scanToolbar,.scan-toolbar,.scan-controls{padding-top:4px!important;padding-bottom:4px!important;min-height:0!important;gap:4px!important;}
+#scanToolbar button,.scan-toolbar button,.scan-controls button{padding:5px 9px!important;min-height:30px!important;line-height:1.1!important;}
+</style></head>
 <body>
 <div class="app">
 <header>
  <div class="logo">M3U <span>Studio Pro</span></div>
- <div class="file"><button class="primary" id="openBtn">📂 Aç <span class="kbd">Ctrl+O</span></button><span class="filename" id="fileName">Dosya yüklenmedi</span></div>
+ <div class="file"><span class="filename" id="fileName">Dosya yüklenmedi</span></div>
  <input id="fileInput" type="file" accept=".m3u,.m3u8,.txt" hidden>
-  <div style="margin-left:auto;display:flex;gap:6px"><button id="newBtn">＋ Yeni</button>
-<button id="converterBtn" type="button">Dönüştür</button><button class="good" id="saveBtn">💾 Kaydet <span class="kbd">Ctrl+S</span></button></div>
+ <input id="appendFileInput" type="file" accept=".m3u,.m3u8,.txt" hidden>
+ <div class="headerMainTools">
+  <button class="primary" id="openBtn">📂 Aç</button><button id="appendListBtn" class="listAddBtn">➕ Liste Ekle</button><button id="newBtn">＋ Yeni</button>
+  <div class="drop" id="cleanDrop"><button>🧹 Temizle</button><div class="menu"><button id="cleanNames">Kanal adlarını temizle</button><button id="cleanGroups">Grupları temizle</button><button id="cleanLogos">Logoları temizle</button><button id="cleanEpg">EPG ID'lerini temizle</button><button id="cleanInvalid">Eksik / geçersizleri sil</button><div class="subhead"></div><button class="dangerItem" type="button" id="cleanAll">Hepsini temizle</button></div></div>
+  
+  <button id="undoBtn">↶ Geri</button><button id="redoBtn">↷ İleri</button><button class="good" id="saveBtn">💾 Kaydet</button>
+ </div>
 </header>
-
-<div class="topbar">
- <button id="addBtn">➕ Kanal</button>
- <button id="sortBtn">🔢 Sırala</button>
- <div class="drop" id="cleanDrop"><button>🧹 Temizle</button><div class="menu">
-  <button id="cleanNames">Kanal adlarını temizle</button><button id="cleanGroups">Grupları temizle</button><button id="cleanLogos">Logoları temizle</button><button id="cleanEpg">EPG ID'lerini temizle</button><button id="cleanInvalid">Eksik / geçersizleri sil</button><div class="subhead"></div><button class="dangerItem" type="button" id="cleanAll">Hepsini temizle</button>
- </div></div>
- <div class="sep"></div>
- <button id="sameLinksBtn">🔗 Aynı Linkleri Yönet</button>
- <div class="drop" id="httpDrop"><button id="httpSelectBtn">HTTP'leri Seç</button><div class="menu"><button id="selectHttp">HTTP seç</button><button class="dangerItem" type="button" id="deleteSelectedHttp">HTTP linklerini toplu sil</button></div></div>
- <button id="undoBtn">↶ Geri <span class="kbd">Ctrl+Z</span></button><button id="redoBtn">↷ İleri <span class="kbd">Ctrl+Y</span></button>
- <div style="margin-left:auto;color:#d0d9e6"><span class="kbd">Del</span> Sil · <span class="kbd">Enter</span> Düzenle · <span class="kbd">Ctrl+A</span> Seç · <span class="kbd">Esc</span> Temizle</div>
-</div>
 
 <div class="progress"><i id="progress"></i></div>
 
@@ -130,59 +202,47 @@ footer{height:28px;display:flex;align-items:center;justify-content:space-between
    <div class="counter"><b id="sHttps">0</b><span>HTTPS</span></div>
   </div>
 
-  <div class="searchbar"><input id="search" placeholder="Kanal / grup / URL ara…"><button id="clearSearch">✕</button></div>
+  <div class="listToolbar">
+   <button id="addBtn">➕ Kanal</button><button id="sortBtn">🔢 Sırala</button>
+   <div class="drop groupFilterDrop" id="groupFilterDrop"><button id="groupFilterBtn">📁 Gruplar <span id="groupSelectedBadge" class="groupSelectedBadge"></span></button><div class="menu groupMenu"><div class="groupTools"><button id="groupsSelectAll">☑ Tümünü seç</button><button id="groupsClear">Kaldır</button><button id="groupsExport" class="good">💾 Seçilen M3U</button><button id="groupsDelete" class="danger">🗑 Seçilen grupları sil</button></div><div id="groupChecks" class="groupChecks"></div></div></div>
+   <button id="selectVisible">Seç</button><button id="selectNone">Kaldır</button><button id="deleteSelectedBtn" class="danger">Sil</button><button id="sameLinksBtn" title="Aynı linke sahip kanalların ilkini korur, tekrarlarını seçer. Silmek için Sil'e basın">🔗 Mükerrerleri Seç</button><button id="httpSelectBtn">HTTP'leri Seç</button>
+   <div class="searchbar compactSearch"><input id="search" placeholder="Kanal / grup / URL ara…"><button id="clearSearch">✕</button></div>
+  </div>
   <div class="filters">
-   <div class="drop groupFilterDrop" id="groupFilterDrop">
-    <button id="groupFilterBtn">📁 Gruplar <span id="groupSelectedBadge" class="groupSelectedBadge"></span></button>
-    <div class="menu groupMenu">
-      <div class="groupTools">
-        <button id="groupsSelectAll">☑ Tümünü seç</button>
-        <button id="groupsClear">Kaldır</button>
-        <button id="groupsExport" class="good">💾 Seçilen M3U</button>
-        <button id="groupsDelete" class="danger">🗑 Seçilen grupları sil</button>
-      </div>
-      <div id="groupChecks" class="groupChecks"></div>
-    </div>
-   </div>
-   <div class="scanInline" id="scanInline">
-    <button class="primary" id="scanAll2">▶ Tümünü tara</button>
-    <button id="scanSelected2">▶ Seçilenleri tara</button>
-    <button id="scanStop2">⏸ Duraklat</button>
-    <button class="danger" id="scanCancel2">■ İptal</button>
-    <span class="scanMini"><b id="scDone">0</b>/<b id="scTotal">0</b> · <b id="scLive">0</b> çalışan · <b id="scDead">0</b> ölü · <b id="scUnknown">0</b> ulaşılamayan · <b id="scPct">0%</b></span>
-    <span class="scanMiniTime" id="scElapsed">00:00</span>
-    <div class="scanMiniBar"><i id="scanProgressBar"></i></div>
-   </div>
+   <div class="scanInline" id="scanInline"><div class="scanButtons"><button class="primary" id="scanAll2">▶ Tara</button><button id="scanSelected2">▶ Seçilen</button><button id="scanStop2">⏸ Duraklat</button><button class="danger" id="scanCancel2">■ İptal</button></div><span class="scanMini"><b id="scDone">0</b>/<b id="scTotal">0</b> · <b id="scLive">0</b> çalışan · <b id="scDead">0</b> ölü · <b id="scUnknown">0</b> ulaşılamayan · <b id="scPct">0%</b></span><span class="scanMiniTime" id="scElapsed">00:00</span><div class="scanMiniBar"><i id="scanProgressBar"></i></div></div>
    <select id="statusFilter"><option value="">Link durumu: Tümü</option><option value="live">Çalışan</option><option value="dead">Ölü</option><option value="unknown">Ulaşılamayan</option><option value="unchecked">Taranmadı</option></select>
    <select id="sortFilter"><option value="order">Orijinal sıra</option><option value="name">Ada göre</option><option value="group">Gruba göre</option><option value="status">Duruma göre</option><option value="same">Aynı isimleri birleştir</option></select>
-   <button id="selectVisible">Seç</button><button id="selectNone">Kaldır</button><button id="deleteSelectedBtn" class="danger">Sil</button>
   </div>
-  <div class="tableHead"><span>✓</span><span>#</span><span>Kanal</span><span>Grup</span><span>Logo</span><span>EPG ID</span><span>Yayın URL</span><span>İşlem</span></div>
+  <div class="listStage"><div class="tablePane"><div class="tableHead"><span>✓</span><span>#</span><span>Kanal</span><span>Grup</span><span>Logo</span><span>EPG ID</span><span>Yayın URL</span><span>İşlem</span></div>
   <div class="list" id="list"><div class="rows" id="rows"></div></div>
- </section>
+  <div class="pager" id="pager"><button id="pgFirst" title="Liste başı">⏮ Liste başı</button><button id="pgPrev" title="Önceki sayfa">◀ Önceki</button><span class="pgMid">Sayfa <input id="pageNum" type="number" min="1" value="1"> / <b id="pageTotal">1</b></span><button id="pgNext" title="Sonraki sayfa">Sonraki ▶</button><button id="pgLast" title="Liste sonu">Liste sonu ⏭</button><span class="pgSp"></span><span id="pageInfo" class="pgInfo"></span><label>Satır <select id="pageSize"><option value="50">50</option><option value="100">100</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="0" selected>Tümü</option></select></label></div>
+ </div><aside class="previewDock" id="previewDock">
+ <div class="previewDockHead"><h3 id="dockTitle">Önizleme</h3><button id="dockPrev" title="Önceki">◄</button><button id="dockNext" title="Sonraki">►</button><button id="dockLast" title="Son izlenen kanal yok" disabled>↩ Geri Al</button><button id="dockCapture" title="Ekranı yakala">📷 Ekranı Yakala</button></div>
+ <div class="previewDockStage" id="previewStage"><video id="previewVideo" class="previewDockVideo" controls autoplay playsinline></video><iframe id="previewIframe" class="previewIframe" allow="autoplay; fullscreen" referrerpolicy="no-referrer"></iframe></div>
+ <div id="previewUrl" class="previewDockUrl" hidden>Önizleme için bir kanal seçin</div>
+ <div class="previewDockControls"><button id="dockSubToggle">Altyazı: <span id="dockSubState" class="statePill off">Kapalı</span></button><select id="dockSubSelect" title="Altyazı seç"><option value="">Altyazı seç</option></select><button id="dockTab" class="good">↗ Sekmede aç</button><button id="dockIframe">iFrame <span class="modeDot" id="dockIframeDot"></span></button><button id="dockNative" data-mode="native">Mod: Native <span class="modeDot" id="dockModeDot"></span></button></div>
+ <div id="dockStatus" class="previewDockStatus">Hazır</div>
+</aside></div></section>
 </main>
 <footer><span id="footerLeft">0 kanal · Kaydedilmemiş değişiklik yok</span><span>Bağımsız HTML · İnternet bağlantısı gerekmez · Büyük listeler için sanal liste</span></footer>
 </div>
 
-<div class="modalBack" id="previewModal"><div class="modal previewModalBox">
- <div class="modalHead"><h2 id="previewTitle">Ön izleme</h2><button id="closePreview" class="danger">Kapat</button></div>
- <video id="previewVideo" controls autoplay playsinline></video><div id="previewUrl" class="previewUrl"></div>
-</div></div>
+
 <div class="modalBack" id="contextModal"><div class="modal contextModalBox">
- <div class="modalHead"><h2 id="ctxTitle">M3U Bilgileri</h2><button id="closeContext">Kapat</button></div>
- <textarea id="ctxInfo" readonly></textarea><div class="modalActions"><button id="copyM3U" class="primary">M3U Bilgilerini Kopyala</button></div>
+ <div class="modalHead"><h2 id="ctxTitle">M3U Bilgileri</h2><button id="closeContext" type="button" onclick="closeContextModal();return false;">Kapat</button></div>
+ <textarea id="ctxInfo" readonly></textarea><div class="modalActions"><button id="copyM3U" type="button" class="primary" onclick="copyM3URecord(+$(&quot;contextModal&quot;).dataset.index);return false;">M3U Bilgilerini Kopyala</button></div>
 </div></div>
 
 <div class="modalBack" id="editorModal"><div class="modal">
- <h2 id="editorTitle">Kanal Düzenle</h2><div class="form">
+ <div class="modalHead"><h2 id="editorTitle">Kanal Düzenle</h2><button id="closeEditorTop" type="button" onclick="closeEditorModal();return false;">Kapat</button></div><div class="form">
   <div class="field"><label>Kanal adı</label><input id="fName"></div><div class="field"><label>Grup / kategori</label><input id="fGroup"></div>
   <div class="field full"><label>Yayın URL</label><input id="fUrl"></div><div class="field"><label>Logo URL</label><input id="fLogo"></div><div class="field"><label>EPG / TVG-ID</label><input id="fTvgId"></div>
   <div class="field"><label>TVG-Name</label><input id="fTvgName"></div><div class="field"><label>Diğer EXTINF özellikleri</label><input id="fAttrs"></div>
   <div class="field full"><label>Ham EXTINF satırı / özel bilgi</label><textarea id="fRaw" placeholder="Yeni Kanal ekranında başka bir M3U listesinden bir veya sınırsız sayıda #EXTINF kaydını buraya yapıştırabilirsiniz. Kaydet ile tamamı listeye eklenir."></textarea><div class="muted" style="margin-top:6px">💡 Yeni Kanal: başka bir listeden kopyaladığınız birden fazla <b>#EXTINF</b> kaydını buraya arka arkaya yapıştırın; <b>Kaydet</b> hepsini tek seferde listeye ekler.</div></div>
- </div><div class="modalFoot"><button id="cancelEditor">Vazgeç</button><button class="primary" id="saveEditor">Kaydet</button></div>
+ </div><div class="modalFoot"><button id="cancelEditor" type="button" onclick="closeEditorModal();return false;">Vazgeç</button><button class="primary" id="saveEditor" type="button" onclick="saveEditor();return false;">Kaydet</button></div>
 </div></div>
 
-<div class="modalBack" id="dupModal"><div class="modal"><h2>🔗 Aynı Linkleri Yönet</h2><div id="dupList" class="dupList"></div><div class="modalFoot"><button id="cancelDup">Kapat</button><button class="danger" id="applyDup">Seçilenleri koru, diğer tekrarları sil</button></div></div></div>
+<div class="modalBack" id="dupModal"><div class="modal"><h2>🔗 Aynı Linkleri Yönet</h2><div id="dupList" class="dupList"></div><div class="modalFoot"><button id="cancelDup" type="button" onclick="closeDupModal();return false;">Kapat</button><button class="danger" id="applyDup" type="button" onclick="if(!this.disabled)applyDup();return false;">Seçilenleri koru, diğer tekrarları sil</button></div></div></div>
 </div>
 
 
@@ -205,21 +265,31 @@ function ensureUids(){for(const x of S.items)if(!x.uid)x.uid=makeUid();if(S.main
 function specialKey(x){return x?.uid||""}
 function specialCount(){return S.specialSelected.size}
 function specialItems(){ensureUids();const base=S.groupMode&&S.mainItems?S.mainItems:S.items;return base.filter(x=>S.specialSelected.has(specialKey(x)))}
-function toggleSpecial(i){ensureUids();const x=S.items[i];if(!x)return;const k=specialKey(x);if(S.specialSelected.has(k)){S.specialSelected.delete(k);toast("Özel seçimden çıkarıldı")}else{S.specialSelected.add(k);toast("Özel seçime eklendi")}renderRows();updateStats()}
+function toggleSpecial(i){ensureUids();const x=S.items[i];if(!x)return;const k=specialKey(x);if(S.specialSelected.has(k)){S.specialSelected.delete(k);S.selected.delete(i);toast("Özel seçimden çıkarıldı")}else{S.specialSelected.add(k);S.selected.add(i);toast("Özel seçime eklendi")}renderRows();updateStats()}
 function clearSpecial(){S.specialSelected.clear();renderAll();toast("Özel kanal seçimi temizlendi")}
+async function readTextFile(f){
+ const buf=await f.arrayBuffer();let text=new TextDecoder("utf-8").decode(buf);
+ if(text.includes("\uFFFD")){try{text=new TextDecoder("windows-1254").decode(buf)}catch{}}
+ return text;
+}
+function splitExtinf(line){let q=false;for(let i=0;i<line.length;i++){const ch=line[i];if(ch==='"')q=!q;else if(ch===','&&!q)return i}return -1}
 function parseM3U(text){
  const lines=text.replace(/^\uFEFF/,"").split(/\r?\n/),out=[];let cur=null;
  for(const raw of lines){const line=raw.trim();if(!line)continue;
   if(/^#EXTINF/i.test(line)){
-   const c=line.lastIndexOf(',');
-   const meta=c>=0?line.slice(0,c):line,name=c>=0?line.slice(c+1).trim():"";const attrs={};
+   let c=splitExtinf(line);if(c<0)c=line.lastIndexOf(',');
+   const meta=c>=0?line.slice(0,c):line;let name=c>=0?line.slice(c+1).trim():"";const attrs={};
+   const dm=/^#EXTINF\s*:\s*(-?\d+(?:\.\d+)?)/i.exec(meta);
    const re=/([\w-]+)="([^"]*)"/g;let m;while((m=re.exec(meta.slice(7))))attrs[m[1]]=m[2];
-   cur={uid:makeUid(),name,group:attrs["group-title"]||"",url:"",logo:attrs["tvg-logo"]||"",tvgId:attrs["tvg-id"]||"",tvgName:attrs["tvg-name"]||"",attrs,directives:[],raw:line,status:"unchecked"}
-  } else if(cur&&/^#EXTVLCOPT:/i.test(line)){cur.directives.push(line)} else if(cur&&!line.startsWith("#")){cur.url=line;out.push(cur);cur=null}
+   if(!name)name=attrs["tvg-name"]||"";
+   cur={uid:makeUid(),name,group:attrs["group-title"]||"",url:"",logo:attrs["tvg-logo"]||"",tvgId:attrs["tvg-id"]||"",tvgName:attrs["tvg-name"]||"",attrs,directives:[],duration:dm?dm[1]:"-1",raw:line,status:"unchecked"}
+  } else if(cur&&/^#EXTGRP\s*:/i.test(line)){if(!cur.group)cur.group=line.replace(/^#EXTGRP\s*:/i,"").trim()}
+  else if(cur&&line.startsWith("#")){cur.directives.push(line)}
+  else if(cur&&!line.startsWith("#")){cur.url=line;out.push(cur);cur=null}
  }
  return out
 }
-function buildM3U(items){let s="#EXTM3U\r\n";for(const x of items){const a=[];if(x.tvgId)a.push(`tvg-id="${x.tvgId}"`);if(x.tvgName)a.push(`tvg-name="${x.tvgName}"`);if(x.logo)a.push(`tvg-logo="${x.logo}"`);if(x.group)a.push(`group-title="${x.group}"`);for(const[k,v]of Object.entries(x.attrs||{}))if(!["tvg-id","tvg-name","tvg-logo","group-title"].includes(k))a.push(`${k}="${v}"`);s+=`#EXTINF:-1${a.length?" "+a.join(" "):""},${x.name}\r\n`;for(const d of (x.directives||[]))s+=d+"\r\n";s+=x.url+"\r\n"}return s}
+function buildM3U(items){const q=v=>String(v??"").replace(/"/g,"'"),t1=v=>String(v??"").replace(/[\r\n]+/g," ");let s="#EXTM3U\r\n";for(const x of items){const a=[];if(x.tvgId)a.push(`tvg-id="${q(x.tvgId)}"`);if(x.tvgName)a.push(`tvg-name="${q(x.tvgName)}"`);if(x.logo)a.push(`tvg-logo="${q(x.logo)}"`);if(x.group)a.push(`group-title="${q(x.group)}"`);for(const[k,v]of Object.entries(x.attrs||{}))if(!["tvg-id","tvg-name","tvg-logo","group-title"].includes(k))a.push(`${k}="${q(v)}"`);s+=`#EXTINF:${x.duration??"-1"}${a.length?" "+a.join(" "):""},${t1(x.name)}\r\n`;for(const d of (x.directives||[]))s+=d+"\r\n";s+=t1(x.url)+"\r\n"}return s}
 function groupSourceItems(){return S.groupMode&&S.mainItems?S.mainItems:S.items}
 function groupsMap(){const m=new Map();groupSourceItems().forEach(x=>m.set(x.group||"(Grupsuz)",(m.get(x.group||"(Grupsuz)")||0)+1));return m}
 function enterGroupWorkspace(){
@@ -275,7 +345,7 @@ function applyFilters(){
   }
   a=ordered.flat();
  }
- S.filtered=a;renderRows()
+ S.filteredAll=a;applyPaging();updateShownStat();renderRows()
 }
 function sameNameOrderedItems(items){
  const groups=new Map(),ordered=[];
@@ -385,12 +455,37 @@ function updateMultiRowDrag(){return;}
 function finishRowDrag(){return;}
 function updateRowDrag(){return;}
 
+function updateShownStat(){const e=$("sShown");if(e)e.textContent=`${(S.filteredAll||S.filtered).length.toLocaleString("tr-TR")} / ${(S._missing||0).toLocaleString("tr-TR")}`}
+function applyPaging(){
+ const all=S.filteredAll||[];
+ const sig=S.search+"|"+$("statusFilter").value+"|"+$("sortFilter").value+"|"+[...S.groupSelected].join(",");
+ if(S.pageSig!==sig){S.pageSig=sig;S.page=0}
+ const ps=S.pageSize||0;
+ if(!ps){S.page=0;S.filtered=all}
+ else{const pages=Math.max(1,Math.ceil(all.length/ps));S.page=Math.min(Math.max(S.page||0,0),pages-1);S.filtered=all.slice(S.page*ps,S.page*ps+ps)}
+ updatePager();
+}
+function updatePager(){
+ const all=S.filteredAll||[],ps=S.pageSize||0,total=all.length,pages=ps?Math.max(1,Math.ceil(total/ps)):1;
+ const pn=$("pageNum");if(pn){pn.value=ps?(S.page||0)+1:1;pn.max=pages;pn.disabled=!ps}
+ const pt=$("pageTotal");if(pt)pt.textContent=pages.toLocaleString("tr-TR");
+ const from=total?(ps?S.page*ps+1:1):0,to=ps?Math.min(total,(S.page+1)*ps):total;
+ const pi=$("pageInfo");if(pi)pi.textContent=`${from.toLocaleString("tr-TR")}–${to.toLocaleString("tr-TR")} / ${total.toLocaleString("tr-TR")}`;
+ const sz=$("pageSize");if(sz)sz.value=String(ps);
+}
+function goPage(n,toBottom){
+ const ps=S.pageSize||0,list=$("list");
+ if(!ps){renderRows();list.scrollTop=toBottom?list.scrollHeight:0;renderRows();return}
+ const pages=Math.max(1,Math.ceil((S.filteredAll||[]).length/ps));
+ S.page=Math.min(Math.max(n,0),pages-1);applyPaging();renderRows();
+ list.scrollTop=toBottom?list.scrollHeight:0;renderRows();
+}
 function renderRows(){
  const list=$("list"),rows=$("rows");
  if(S.backupCacheItems!==S.items){S.backupCache=buildBackupBestMap();S.backupCacheItems=S.items}
  const backupBestMap=S.backupCache,h=Math.max(list.clientHeight||500,300),start=Math.max(0,Math.floor(list.scrollTop/S.rowH)-5),count=Math.ceil(h/S.rowH)+12,end=Math.min(S.filtered.length,start+count);rows.style.height=(S.filtered.length*S.rowH)+"px";rows.innerHTML="";
  for(let p=start;p<end;p++){const x=S.filtered[p],i=x.__i,d=document.createElement("div");const backupInfo=backupBestMap.get(i);d.draggable=false;d.className="row"+(S.selected.has(i)?" selected":"")+(backupInfo?.best?" backupBest":"");d.dataset.row=i;d.draggable=false;d.style.top=(p*S.rowH)+"px";const dot=x.status==="live"?"live":x.status==="dead"?"dead":"unknown";
-  d.innerHTML=`<span class="checkWrap"><span class="checkHit" data-check="${i}" title="Seç / seçimi kaldır"><input type="checkbox" ${S.selected.has(i)?"checked":""} tabindex="-1"></span>${S.selected.has(i)?`<button type="button" class="dragHandle" data-drag="${i}" title="Seçili kanalları taşı">↕</button>`:""}</span><span class="num">${i+1}</span><div class="cell name editableCell" data-edit="name" data-i="${i}" title="Kanal adını değiştirmek için tıklayın"><span class="statusdot ${dot}"></span>${esc(x.name)}${backupInfo?.best?`<span class="backupBadge" title="GÜVENLİ — muhtemel daha uzun ömürlü bağlantı">GÜVENLİ</span>`:""}</div><div class="cell muted editableCell" data-edit="group" data-i="${i}" title="Grubu değiştirmek için tıklayın">${esc(x.group||"—")}</div><div class="cell url editableCell" data-edit="logo" data-i="${i}" title="Logo URL'sini değiştirmek için tıklayın">${x.logo?esc(x.logo):"—"}</div><div class="cell url editableCell" data-edit="tvgId" data-i="${i}" title="EPG ID'yi değiştirmek için tıklayın">${x.tvgId?esc(x.tvgId):"—"}</div><div class="cell url editableCell" data-edit="url" data-i="${i}" title="Yayın URL'sini değiştirmek için tıklayın">${esc(x.url)}</div><div class="rowBtns"><button class="play ${S.openTabs.has(x.uid)?(S.openTabs.get(x.uid).closed?"closed":"opened"):""}" data-open="${i}" title="Yeni sekmede aç">↗</button><button class="special ${S.specialSelected.has(specialKey(x))?"active":""}" data-special="${i}" title="Özel seçim">${S.specialSelected.has(specialKey(x))?"✓":"Seç"}</button><button class="previewBtn ${S.previewed.has(specialKey(x))?"viewed":""}" data-prev="${i}" title="Ön izleme">▶</button><button class="copy ${S.copied.has(specialKey(x))?"copied":""}" data-copy="${i}" title="Linki kopyala">🔗</button></div>`;rows.appendChild(d)}
+  d.innerHTML=`<span class="checkWrap"><span class="checkHit" data-check="${i}" title="Seç / seçimi kaldır"><input type="checkbox" ${S.selected.has(i)?"checked":""} tabindex="-1"></span>${S.selected.has(i)?`<button type="button" class="dragHandle" data-drag="${i}" title="Seçili kanalları taşı">↕</button>`:""}</span><span class="num">${i+1}</span><div class="cell name editableCell" data-edit="name" data-i="${i}" title="Kanal adını değiştirmek için tıklayın"><span class="statusdot ${dot}"></span>${esc(x.name)}${backupInfo?.best?`<span class="backupBadge" title="GÜVENLİ — muhtemel daha uzun ömürlü bağlantı">GÜVENLİ</span>`:""}</div><div class="cell muted editableCell" data-edit="group" data-i="${i}" title="Grubu değiştirmek için tıklayın">${esc(x.group||"—")}</div><div class="cell url editableCell" data-edit="logo" data-i="${i}" title="Logo URL'sini değiştirmek için tıklayın">${x.logo?esc(x.logo):"—"}</div><div class="cell url editableCell" data-edit="tvgId" data-i="${i}" title="EPG ID'yi değiştirmek için tıklayın">${x.tvgId?esc(x.tvgId):"—"}</div><div class="cell url editableCell" data-edit="url" data-i="${i}" title="Yayın URL'sini değiştirmek için tıklayın">${esc(x.url)}</div><div class="rowBtns"><button class="previewBtn ${x.uid===window.__previewUid?"viewed":""}" data-prev="${i}" title="Ön izleme">▶</button><button class="special ${S.specialSelected.has(specialKey(x))?"active":""}" data-special="${i}" title="Özel seçim">${S.specialSelected.has(specialKey(x))?"✓":"Seç"}</button><button class="copy ${S.copied.has(specialKey(x))?"copied":""}" data-copy="${i}" title="Linki kopyala">🔗</button></div>`;rows.appendChild(d)}
 }
 
 function beginInlineEdit(cell){
@@ -398,7 +493,7 @@ function beginInlineEdit(cell){
  if(!x||cell.querySelector(".inlineEdit"))return;
  const oldValue=String(x[field]??"");
  const input=document.createElement("input");input.className="inlineEdit";input.value=oldValue;input.type=field==="url"||field==="logo"?"url":"text";input.spellcheck=false;
- cell.textContent="";cell.appendChild(input);input.focus();input.select();
+ cell.textContent="";cell.classList.add("editing");cell.appendChild(input);input.focus();input.select();
  let finished=false;
  const finish=(save)=>{
   if(finished)return;finished=true;
@@ -413,14 +508,17 @@ function updateStats(){
  const gm=groupsMap();let logo=0,epg=0,http=0,https=0,dup=0;const u=new Map();
  for(const x of S.items){if(x.logo)logo++;if(x.tvgId)epg++;if(/^https:/i.test(x.url))https++;if(/^http:/i.test(x.url))http++;if(x.url)u.set(x.url,(u.get(x.url)||0)+1);}
  for(const n of u.values())if(n>1)dup+=n-1;
- const missing=S.items.filter(x=>!x.name||!x.url||!/^https?:\/\//i.test(x.url)).length;
- const vals={sTotal:S.items.length,sShown:`${S.filtered.length.toLocaleString("tr-TR")} / ${missing.toLocaleString("tr-TR")}`,sGroups:gm.size,sSel:S.selected.size,sSpecial:specialCount(),sLogo:logo,sEpg:epg,sDup:dup,sHttp:http,sHttps:https};
+ const missing=S.items.filter(x=>!x.name||!x.url||!/^https?:\/\//i.test(x.url)).length;S._missing=missing;
+ const vals={sTotal:S.items.length,sShown:`${(S.filteredAll||S.filtered).length.toLocaleString("tr-TR")} / ${missing.toLocaleString("tr-TR")}`,sGroups:gm.size,sSel:S.selected.size,sSpecial:specialCount(),sLogo:logo,sEpg:epg,sDup:dup,sHttp:http,sHttps:https};
  for(const[k,v]of Object.entries(vals))$(k).textContent=typeof v==='number'?v.toLocaleString("tr-TR"):v;$("footerLeft").textContent=`${S.items.length.toLocaleString("tr-TR")} kanal · Özel seçim: ${specialCount().toLocaleString("tr-TR")}`;
  const validGroups=new Set(gm.keys());S.groupSelected.forEach(g=>{if(!validGroups.has(g))S.groupSelected.delete(g)});
  $("groupChecks").innerHTML=[...gm.entries()].sort((a,b)=>a[0].localeCompare(b[0],"tr")).map(([g,n])=>`<label class="groupCheck"><input type="checkbox" data-groupcheck="${esc(g)}" ${S.groupSelected.has(g)?"checked":""}><span class="groupLabel">${esc(g)}</span><span class="groupCount">${n.toLocaleString("tr-TR")}</span></label>`).join("")||'<div class="groupEmpty">Henüz grup yok.</div>';
  $("groupSelectedBadge").textContent=S.groupSelected.size?`(${S.groupSelected.size} seçili)`:"";
 }
-function renderAll(){ensureUids();updateStats();applyFilters();$("fileName").textContent=S.fileName}
+function renderAll(){ensureUids();{const nw=Math.max(38,String(Math.max(S.items.length,1)).length*10+12)+"px";if(document.documentElement.style.getPropertyValue("--numw")!==nw){document.documentElement.style.setProperty("--numw",nw);setTimeout(()=>window.dispatchEvent(new Event("resize")),0)}}updateStats();applyFilters();$("fileName").textContent=S.fileName;
+ if(window.__previewUid!=null&&previewIndex>=0){const k=S.items.findIndex(y=>y.uid===window.__previewUid);previewIndex=k;if(k>=0){const y=S.items[k];window.__previewUrl=y.url;$("dockTitle").textContent=`${k+1}. ${y.name||"Önizleme"}`}}
+ if(window.__updLast)window.__updLast();
+}
 function toggleGroup(g,checked){
  if(!S.groupMode){
   S.groupSelected.clear();
@@ -498,14 +596,13 @@ function saveEditor(){
   return toast("Yapıştırılan EXTINF kayıtlarında geçerli kanal bulunamadı");
  }
  const attrs={};const re=/([\w-]+)="([^"]*)"/g;let m;while((m=re.exec($("fAttrs").value)))attrs[m[1]]=m[2];
- const x={uid:S.editing<0?makeUid():S.items[S.editing].uid,name:$("fName").value.trim(),group:$("fGroup").value.trim(),url:$("fUrl").value.trim(),logo:$("fLogo").value.trim(),tvgId:$("fTvgId").value.trim(),tvgName:$("fTvgName").value.trim(),attrs,raw:rawText,status:S.editing>=0?S.items[S.editing].status:"unchecked"};
+ const x={...(S.editing>=0?S.items[S.editing]:{directives:[]}),uid:S.editing<0?makeUid():S.items[S.editing].uid,name:$("fName").value.trim(),group:$("fGroup").value.trim(),url:$("fUrl").value.trim(),logo:$("fLogo").value.trim(),tvgId:$("fTvgId").value.trim(),tvgName:$("fTvgName").value.trim(),attrs,raw:rawText,status:(S.editing>=0&&S.items[S.editing].url===$("fUrl").value.trim())?S.items[S.editing].status:"unchecked"};
  if(!x.name&&!x.url)return toast("Kanal adı veya URL gerekli");
  if(S.editing<0)S.items.push(x);else S.items[S.editing]=x;
  $("editorModal").classList.remove("show");pushHistory(before,S.editing<0?"Kanal eklendi":"Kanal düzenlendi")
 }
 function ids(){return [...S.selected].sort((a,b)=>a-b)}
 function requireSel(){if(!S.selected.size){toast("Önce kanal seç");return false}return true}
-function deleteSelected(){if(!requireSel())return;const before=clone(),set=new Set(ids());if(!confirm(`${set.size.toLocaleString("tr-TR")} kanal silinsin mi?`))return;S.items=S.items.filter((_,i)=>!set.has(i));S.selected.clear();pushHistory(before,`${set.size} kanal silindi`)}
 function duplicateSelected(){if(!requireSel())return;const before=clone(),a=ids().map(i=>({...S.items[i],attrs:{...(S.items[i].attrs||{})},name:S.items[i].name+" (Kopya)"}));S.items.splice(ids().at(-1)+1,0,...a);pushHistory(before,`${a.length} kanal çoğaltıldı`)}
 function move(delta){if(!requireSel())return;const before=clone(),a=ids();if(delta<0){for(const i of a){if(i>0){[S.items[i-1],S.items[i]]=[S.items[i],S.items[i-1]]}}}else{for(let k=a.length-1;k>=0;k--){const i=a[k];if(i<S.items.length-1)[S.items[i+1],S.items[i]]=[S.items[i],S.items[i+1]]}}pushHistory(before,delta<0?"Yukarı taşındı":"Aşağı taşındı")}
 function cleanNamesCore(){
@@ -528,6 +625,14 @@ function cleanGroups(){const before=clone();for(const x of S.items)x.group='';pu
 function cleanLogos(){const before=clone();for(const x of S.items)x.logo='';pushHistory(before,'Logolar temizlendi')}
 function cleanEpg(){const before=clone();for(const x of S.items){x.tvgId='';x.tvgName=''}pushHistory(before,'EPG ID\'leri temizlendi')}
 function cleanInvalid(){const before=clone();const bad=S.items.filter(x=>!x.name||!x.url||!/^https?:\/\//i.test(x.url)).length;if(!bad)return toast('Eksik/geçersiz kanal yok');S.items=S.items.filter(x=>x.name&&x.url&&/^https?:\/\//i.test(x.url));const validUids=new Set(S.items.map(x=>x.uid));S.specialSelected.forEach(k=>{if(!validUids.has(k))S.specialSelected.delete(k)});S.selected.clear();pushHistory(before,`${bad} eksik/geçersiz kanal silindi`);toast(`${bad.toLocaleString('tr-TR')} eksik/geçersiz kanal silindi`)}
+function selectDuplicates(){
+ const map=new Map();
+ S.items.forEach((x,i)=>{const u=String(x.url||"").trim();if(!u)return;const a=map.get(u);if(a)a.push(i);else map.set(u,[i])});
+ const pick=[];let sets=0;
+ for(const arr of map.values()){if(arr.length<2)continue;sets++;for(let k=1;k<arr.length;k++)pick.push(arr[k])}
+ S.selected.clear();pick.forEach(i=>S.selected.add(i));renderAll();
+ toast(pick.length?`${pick.length.toLocaleString('tr-TR')} mükerrer kanal seçildi (${sets.toLocaleString('tr-TR')} linkin ilk kaydı korunuyor) — silmek için Sil'e basın`:'Mükerrer link yok');
+}
 function selectHttp(){
  const hits=[];S.items.forEach((x,i)=>{if(/^http:\/\//i.test(x.url||''))hits.push(i)});
  S.selected.clear();hits.forEach(i=>S.selected.add(i));renderAll();
@@ -609,24 +714,144 @@ function sortSelected(){
  pushHistory(before,`${moving.length} kanal ${pos+1}. sıraya taşındı`);
  toast(`${moving.length.toLocaleString("tr-TR")} kanal ${pos+1}. sıraya taşındı`)
 }
-function preview(i){
- const x=S.items[i];if(!x?.url)return;
- ensureUids();S.previewed.add(specialKey(x));
- $("previewTitle").textContent=x.name||"Ön izleme";$("previewVideo").src=x.url;$("previewUrl").textContent=x.url;$("previewModal").classList.add("show");
- renderRows();
- try{$("previewVideo").play().catch(()=>{})}catch{}
+let previewIndex=-1;
+function setSubState(on){
+ const b=$("dockSubState"); if(!b)return;
+ b.textContent=on?"Açık":"Kapalı"; b.classList.toggle("on",on); b.classList.toggle("off",!on);
 }
+function subTracks(){const v=$("previewVideo");return v?Array.from(v.textTracks||[]):[]}
+function subShowingIndex(){return subTracks().findIndex(t=>t.mode==='showing')}
+function refreshSubtitleTracks(){
+ const sel=$("dockSubSelect");if(!sel)return;
+ const tracks=subTracks();
+ sel.innerHTML='<option value="">Altyazı seç</option>';
+ tracks.forEach((t,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=t.label||t.language||`Altyazı ${i+1}`;sel.appendChild(o)});
+ const n=subShowingIndex();
+ sel.value=n>=0?String(n):'';
+ if(n>=0)selectedSubtitleIndex=String(n);
+ setSubState(n>=0);
+}
+function applySubtitle(i){
+ const tracks=subTracks();
+ tracks.forEach((t,n)=>{t.mode=(n===i)?'showing':'hidden'});
+ if(previewHls){
+  try{
+   if(i>=0){previewHls.subtitleDisplay=true;const h=previewHls.subtitleTracks||[];let k=h.findIndex(x=>x&&x.name&&tracks[i]&&x.name===tracks[i].label);if(k<0)k=Math.min(i,h.length-1);if(k>=0)previewHls.subtitleTrack=k}
+   else{previewHls.subtitleDisplay=false;previewHls.subtitleTrack=-1}
+  }catch{}
+  setTimeout(()=>{subTracks().forEach((t,n)=>{t.mode=(n===i)?'showing':'hidden'});refreshSubtitleTracks()},80);
+ }
+}
+function selectSubtitle(i){
+ i=Number(i);const tracks=subTracks();if(!Number.isFinite(i)||!tracks[i])return;
+ selectedSubtitleIndex=String(i);applySubtitle(i);setSubState(true);
+ const sel=$("dockSubSelect");if(sel)sel.value=String(i);
+}
+function disableSubtitles(){applySubtitle(-1);setSubState(false);const sel=$("dockSubSelect");if(sel)sel.value=''}
+function toggleSubtitles(){
+ const tracks=subTracks();if(!tracks.length)return toast('Bu yayında kullanılabilir altyazı bulunamadı');
+ if(subShowingIndex()>=0){const n=subShowingIndex();selectedSubtitleIndex=String(n);disableSubtitles();return}
+ let i=Number(selectedSubtitleIndex);
+ if(!(selectedSubtitleIndex!==''&&tracks[i])){i=tracks.findIndex(t=>/^tr/i.test(t.language||''));if(i<0)i=0}
+ selectSubtitle(i);
+}
+function bindSubtitleTrackEvents(){
+ const v=$("previewVideo"); if(!v)return;
+ const tracks=v.textTracks||[];
+ for(let i=0;i<tracks.length;i++){
+  tracks[i].addEventListener?.('cuechange',()=>{
+   if(tracks[i].mode==='showing')setSubState(true);
+  });
+ }
+ refreshSubtitleTracks();
+}
+let previewHls=null;let selectedSubtitleIndex="";
+function resetPreview(){
+ try{clearPreviewMedia()}catch{}
+ previewIndex=-1;window.__prevUid=null;window.__previewUid=null;window.__previewUrl="";window.__fbTried=false;selectedSubtitleIndex="";
+ const d=$("previewDock");if(d)d.classList.remove("playing");
+ $("dockTitle").textContent="Önizleme";$("previewUrl").textContent="Önizleme için bir kanal seçin";$("dockStatus").textContent="Hazır";
+ setSubState(false);const sel=$("dockSubSelect");if(sel){sel.innerHTML='<option value="">Altyazı seç</option>';sel.value=''}
+}
+function resetListView(){
+ S.search="";const se=$("search");if(se)se.value="";
+ const sf=$("statusFilter");if(sf)sf.value="";const so=$("sortFilter");if(so)so.value="order";
+ S.page=0;S.moveMode.active=false;S.moveMode.indices=[];
+ ["fileInput","appendFileInput"].forEach(id=>{const e=$(id);if(e)e.value=""});
+ if(S.scan.running)cancelScan();
+ const l=$("list");if(l)l.scrollTop=0;
+}
+function clearPreviewMedia(){
+ const v=$("previewVideo"),f=$("previewIframe");
+ if(previewHls){try{previewHls.destroy()}catch{}previewHls=null;}
+ try{v.pause()}catch{}
+ v.removeAttribute('src');v.load();f.removeAttribute('src');
+}
+function loadHlsPlayer(src,video){
+ if(!window.Hls){
+  const sc=document.createElement('script');sc.src='https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js';
+  sc.onload=()=>{const cur=S.items[previewIndex]?.url||window.__previewUrl;if(window.__m3uPreviewMode==='hls'&&cur)loadHlsPlayer(cur,video)};sc.onerror=()=>{video.src=src;$("dockStatus").textContent='HLS yüklenemedi — Native mod kullanılıyor';};document.head.appendChild(sc);return;
+ }
+ if(!Hls.isSupported()){video.src=src;$("dockStatus").textContent='HLS bu tarayıcıda desteklenmiyor — Native';return}
+ if(previewHls){try{previewHls.destroy()}catch{}previewHls=null;}
+ previewHls=new Hls({enableWorker:true,lowLatencyMode:false});
+ previewHls.loadSource(src);previewHls.attachMedia(video);
+ previewHls.on(Hls.Events.MANIFEST_PARSED,()=>{bindSubtitleTrackEvents();try{video.play().catch(()=>{})}catch{}});
+ previewHls.on(Hls.Events.SUBTITLE_TRACKS_UPDATED,()=>{setTimeout(bindSubtitleTrackEvents,50)});
+ previewHls.on(Hls.Events.SUBTITLE_TRACK_SWITCH,()=>{setTimeout(refreshSubtitleTracks,20)});
+ previewHls.on(Hls.Events.ERROR,(ev,data)=>{if(data?.fatal){$('dockStatus').textContent='HLS yayın hatası';if(!window.__fbTried&&window.__m3uPreviewMode==='hls'){window.__fbTried=true;$('dockStatus').textContent='HLS hatası — Native deneniyor';setTimeout(()=>setPreviewMode('native'),0)}}});
+}
+function updatePreviewModeIndicators(mode){
+ const iframe=$("dockIframe"), native=$("dockNative"), idot=$("dockIframeDot"), ndot=$("dockModeDot");
+ if(iframe)iframe.classList.toggle('activeMode',mode==='iframe');
+ if(native)native.classList.toggle('activeMode',mode==='native'||mode==='hls');
+ if(idot)idot.classList.toggle('on',mode==='iframe');
+ if(ndot)ndot.classList.toggle('on',mode==='native'||mode==='hls');
+ if(native){native.dataset.mode=mode;native.textContent=(mode==='hls'?'Mod: HLS':'Mod: Native')+' ';}
+ if(native)native.insertAdjacentHTML('beforeend','<span class="modeDot" id="dockModeDot"></span>');
+ if(iframe){iframe.dataset.mode=mode;iframe.innerHTML='iFrame <span class="modeDot" id="dockIframeDot"></span>';}
+ const nd=$("dockModeDot"),ii=$("dockIframeDot"); if(nd)nd.classList.toggle('on',mode==='native'||mode==='hls'); if(ii)ii.classList.toggle('on',mode==='iframe');
+}
+function setPreviewMode(mode){
+ const d=$("previewDock"),v=$("previewVideo"),f=$("previewIframe"); if(!d)return;
+ window.__m3uPreviewMode=mode;
+ if(previewHls){try{previewHls.destroy()}catch{}previewHls=null;}
+ d.classList.toggle('mode-iframe',mode==='iframe'); d.classList.toggle('mode-alt',mode==='alt');
+ updatePreviewModeIndicators(mode);
+ if(mode==='iframe'){
+  f.style.display='block';v.style.display='none';{const u=S.items[previewIndex]?.url||window.__previewUrl||'';if(u)f.src=u}$('dockStatus').textContent='iFrame / Alt Mod';setSubState(false);return;
+ }
+ f.removeAttribute('src');f.style.display='none';v.style.display='block';
+ const src=S.items[previewIndex]?.url||window.__previewUrl||'';
+ if(mode==='hls'){$('dockStatus').textContent='Video Modu (HLS)';if(src)loadHlsPlayer(src,v);}
+ else {$('dockStatus').textContent='Video Modu (Native)';if(src)v.src=src;v.addEventListener('loadedmetadata',refreshSubtitleTracks,{once:true});v.addEventListener('loadeddata',refreshSubtitleTracks,{once:true});}
+}
+function preview(i){
+ const x=S.items[i];if(!x?.url)return; if(window.__previewUid!=null&&window.__previewUid!==x.uid)window.__prevUid=window.__previewUid;previewIndex=i;window.__previewUid=x.uid;window.__previewUrl=x.url;window.__fbTried=false;selectedSubtitleIndex="";$("previewDock").classList.add("playing"); ensureUids();S.previewed.add(specialKey(x));
+ {const t=`${i+1}. ${x.name||"Önizleme"}`;$("dockTitle").textContent=t;}$("previewUrl").textContent=x.url;
+ clearPreviewMedia();setPreviewMode(window.__m3uPreviewMode||'native');
+ const v=$("previewVideo");
+ if((window.__m3uPreviewMode||'native')==='native'){
+  v.addEventListener('loadedmetadata',refreshSubtitleTracks,{once:true});
+  v.addEventListener('loadeddata',refreshSubtitleTracks,{once:true});
+ }
+ renderRows();refreshSubtitleTracks();setSubState(false);try{v.play().catch(()=>{})}catch{}
+}
+function previewStep(dir){if(!S.items.length)return;let i=previewIndex<0?0:previewIndex+dir;if(i<0)i=S.items.length-1;if(i>=S.items.length)i=0;preview(i)}
+function capturePreview(){
+ const v=$("previewVideo"),f=$("previewIframe");
+ if(f.style.display==='block')return toast('iFrame / Alt Mod görüntüsü güvenlik nedeniyle doğrudan yakalanamaz');
+ if(!v.videoWidth||!v.videoHeight)return toast('Yakalanacak görüntü hazır değil');
+ const c=document.createElement('canvas');c.width=v.videoWidth;c.height=v.videoHeight;const x=c.getContext('2d');try{x.drawImage(v,0,0);const a=document.createElement('a');a.download='M3UStudioPro_Onizleme.png';a.href=c.toDataURL('image/png');a.click();}catch{toast('Ekran görüntüsü alınamadı; yayın CORS izni vermiyor olabilir')}
+}
+function openPreviewTab(){if(previewIndex>=0)openUrl(previewIndex)}
+function closePreview(){}
 function openUrl(i){
- const u=S.items[i]?.url||'';
- if(!u)return toast('Kanal URL\'si bulunamadı');
- const w=window.open(u,'_blank');
+ const u=S.items[i]?.url||''; if(!u)return toast("Kanal URL'si bulunamadı"); const w=window.open(u,'_blank');
  if(!w)return toast('Yeni sekme açılamadı; tarayıcı açılır pencereyi engellemiş olabilir');
  const rec={win:w,seq:++S.openSeq,closed:false};S.openTabs.set(S.items[i].uid,rec);renderRows();
- const timer=setInterval(()=>{
-  if(w.closed){clearInterval(timer);const key=S.items[i]?.uid;const r=key?S.openTabs.get(key):null;if(r&&r.win===w){r.closed=true;S.openTabs.set(key,r);renderRows();}}
- },700);
+ const timer=setInterval(()=>{if(w.closed){clearInterval(timer);const key=S.items[i]?.uid;const r=key?S.openTabs.get(key):null;if(r&&r.win===w){r.closed=true;S.openTabs.set(key,r);renderRows();}}},700);
 }
-function closePreview(){$("previewVideo").pause();$("previewVideo").removeAttribute("src");$("previewVideo").load();$("previewModal").classList.remove("show")}
 function m3uRecord(i){const x=S.items[i];if(!x)return "";return buildM3U([x]).replace(/^#EXTM3U\r?\n/,"")}
 async function copyM3URecord(i){const txt=m3uRecord(i);if(!txt)return;try{await navigator.clipboard.writeText(txt)}catch{const t=document.createElement("textarea");t.value=txt;document.body.appendChild(t);t.select();document.execCommand("copy");t.remove()}toast("Kanalın M3U bilgileri kopyalandı")}
 function showContext(i){const x=S.items[i];if(!x)return;$("ctxTitle").textContent=x.name||"Kanal";$("ctxInfo").value=m3uRecord(i);$("contextModal").dataset.index=i;$("contextModal").classList.add("show")}
@@ -878,41 +1103,72 @@ function resetScan(){S.scan={running:false,paused:false,cancel:false,queue:[],to
 function logScan(t){console.debug("M3U Scan:",t)}
 function fmtTime(sec){sec=Math.max(0,Math.floor(sec));return String(Math.floor(sec/60)).padStart(2,"0")+":"+String(sec%60).padStart(2,"0")}
 function updateScanUI(){const s=S.scan,total=s.total||s.done+s.queue.length,pct=total?Math.round(s.done/total*100):0,elapsed=s.start?(Date.now()-s.start)/1000:0;$("scanProgressBar").style.width=pct+"%";$("scDone").textContent=s.done.toLocaleString("tr-TR");$("scTotal").textContent=total.toLocaleString("tr-TR");$("scLive").textContent=s.live.toLocaleString("tr-TR");$("scDead").textContent=s.dead.toLocaleString("tr-TR");$("scUnknown").textContent=s.unknown.toLocaleString("tr-TR");$("scPct").textContent=pct+"%";$("scElapsed").textContent=fmtTime(elapsed);$("scanStop2").textContent=s.paused?"▶ Devam":"⏸ Duraklat"}
+function hostOf(u){try{return new URL(u).host.toLowerCase()}catch{return ""}}
 async function checkUrl(url){
  if(!/^https?:\/\//i.test(url))return "unknown";
- const bust=(u)=>u+(u.includes("?")?"&":"?")+"m3uscan="+Date.now()+"-"+Math.random().toString(36).slice(2);
+ const wait=ms=>new Promise(r=>setTimeout(r,ms));
+ const gone=r=>!!r&&(r.status===404||r.status===410);
+ // Not: URL'ye ek parametre (cache-bust) eklemiyoruz; imzalı/token'lı linkler ek parametreyi 404 ile reddedebiliyor.
  const attempt=async(method,mode,ms)=>{
   const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),ms);
-  try{const r=await fetch(bust(url),{method,mode,cache:"no-store",redirect:"follow",signal:ctrl.signal});clearTimeout(timer);return r}
+  try{const r=await fetch(url,{method,mode,cache:"no-store",redirect:"follow",signal:ctrl.signal});clearTimeout(timer);try{r.body&&r.body.cancel&&r.body.cancel()}catch{}try{ctrl.abort()}catch{}return r}
   catch{clearTimeout(timer);return null}
  };
- // Önce CORS izinli kontrol: gerçek HTTP durum kodlarını görebilirsek en güvenilir sonuç budur.
- let r=await attempt("HEAD","cors",4000);
+ // 1) HEAD: bazı sunucular HEAD'e 404/405 döner, bu yüzden tek başına karar vermez.
+ let r=await attempt("HEAD","cors",4500);
  if(r&&r.ok)return "live";
- if(r&&[404,410].includes(r.status)){
-  const g=await attempt("GET","cors",5000);
-  if(g&&g.ok)return "live";
-  if(g&&[404,410].includes(g.status))return "dead";
- }
- r=await attempt("GET","cors",5500);
+ // 2) GET
+ r=await attempt("GET","cors",6500);
  if(r&&r.ok)return "live";
- if(r&&[404,410].includes(r.status)){
-  const g=await attempt("GET","cors",4000);
+ if(gone(r)){
+  // 404/410: geçici olabilir (yoğunluk, oturum, CDN). Kısa bekleyip tekrar sor; iki GET de 404/410 ise ölü.
+  await wait(900);
+  const g=await attempt("GET","cors",6500);
   if(g&&g.ok)return "live";
-  if(g&&[404,410].includes(g.status))return "dead";
+  if(gone(g))return "dead";
+  return "unknown";
  }
- // IPTV sunucularının önemli bir bölümü CORS başlıklarını göndermez. Tarayıcı bu durumda
- // no-cors ile "opaque" cevap verebilir. Bu, HTTP durum kodunu göstermez; fakat sunucuya
- // ağ seviyesinde erişilebildiğini gösterir. Kullanıcının gerçek IPTV oynatıcısındaki
- // erişilebilirliğe daha yakın olması için bunu çalışan/erişilebilir kabul ediyoruz.
- const opaque=await attempt("GET","no-cors",6000);
+ // Okunabilir ama başarısız yanıt (401/403/429/5xx...): kesin ölü değil, "belirsiz".
+ if(r)return "unknown";
+ // 3) CORS yoksa durum kodu okunamaz; sunucuya ulaşılabiliyorsa çalışıyor say (oynatıcıdaki erişilebilirliğe yakın).
+ const opaque=await attempt("GET","no-cors",7000);
  if(opaque&&opaque.type==="opaque")return "live";
- // 403/405/429/5xx, CORS engeli veya zaman aşımı kesin ölü anlamına gelmez.
+ // 401/403/429/5xx, zaman aşımı ve ağ hataları kesin ölü anlamına gelmez.
  return "unknown";
 }
-async function scanWorker(){while(S.scan.queue.length&&!S.scan.cancel){while(S.scan.paused&&!S.scan.cancel)await new Promise(r=>setTimeout(r,120));if(S.scan.cancel)break;const i=S.scan.queue.shift();if(i==null)break;const x=S.items[i];if(!x)continue;const r=await checkUrl(x.url);x.status=r;S.scan.done++;if(r==="live")S.scan.live++;else if(r==="dead")S.scan.dead++;else S.scan.unknown++;updateScanUI();if(S.scan.done%8===0)renderRows()}S.scan.workers--}
-async function scanLoop(){S.scan.running=true;const workers=Math.min(12,Math.max(2,S.scan.queue.length));S.scan.workers=workers;await Promise.all(Array.from({length:workers},scanWorker));S.scan.running=false;updateScanUI();renderAll();if(S.scan.cancel)toast("Link tarama iptal edildi");else toast("Link tarama tamamlandı")}
-function startScan(selectedOnly=false){if(S.scan.running)return toast("Tarama zaten çalışıyor");const q=[...new Set(selectedOnly?ids():S.items.map((_,i)=>i))];if(!q.length)return toast("Taranacak kanal yok");resetScan();S.scan.queue=q;S.scan.total=q.length;S.scan.start=Date.now();updateScanUI();toast(`${q.length.toLocaleString("tr-TR")} kanal taraması başladı`);scanLoop()}
+function pickScanItem(){
+ const q=S.scan.queue,busy=S.scan.hostBusy||(S.scan.hostBusy=new Map()),lim=Math.min(q.length,300);
+ for(let k=0;k<lim;k++){const h=hostOf(q[k].url);if((busy.get(h)||0)<4){busy.set(h,(busy.get(h)||0)+1);return{x:q.splice(k,1)[0],h}}}
+ return null;
+}
+async function scanWorker(){
+ while(S.scan.queue.length&&!S.scan.cancel){
+  while(S.scan.paused&&!S.scan.cancel)await new Promise(r=>setTimeout(r,120));
+  if(S.scan.cancel)break;
+  const pk=pickScanItem();
+  if(!pk){await new Promise(r=>setTimeout(r,50));continue}
+  const{x,h}=pk;let r="unknown";
+  try{r=await checkUrl(x.url)}catch{r="unknown"}finally{S.scan.hostBusy.set(h,Math.max(0,(S.scan.hostBusy.get(h)||1)-1))}
+  x.status=r;S.scan.done++;
+  if(r==="live")S.scan.live++;else if(r==="dead"){S.scan.dead++;(S.scan.deadList||(S.scan.deadList=[])).push(x)}else S.scan.unknown++;
+  updateScanUI();if(S.scan.done%8===0)renderRows();
+ }
+ S.scan.workers--;
+}
+async function recheckDead(){
+ const list=(S.scan.deadList||[]).slice();if(!list.length||S.scan.cancel)return;
+ toast(`${list.length.toLocaleString("tr-TR")} ölü link ikinci kez doğrulanıyor…`);
+ let idx=0;
+ await Promise.all(Array.from({length:Math.min(4,list.length)},async()=>{
+  while(idx<list.length&&!S.scan.cancel){
+   const x=list[idx++];await new Promise(r=>setTimeout(r,400));
+   const r=await checkUrl(x.url);
+   if(r!=="dead"){x.status=r;S.scan.dead=Math.max(0,S.scan.dead-1);if(r==="live")S.scan.live++;else S.scan.unknown++;updateScanUI();renderRows()}
+  }
+ }));
+}
+async function scanLoop(){S.scan.running=true;const workers=Math.min(12,Math.max(2,S.scan.queue.length));S.scan.workers=workers;await Promise.all(Array.from({length:workers},scanWorker));if(!S.scan.cancel)await recheckDead();S.scan.running=false;updateScanUI();renderAll();if(S.scan.cancel)toast("Link tarama iptal edildi");else toast(`Link tarama tamamlandı: ${S.scan.live.toLocaleString("tr-TR")} çalışan, ${S.scan.dead.toLocaleString("tr-TR")} ölü, ${S.scan.unknown.toLocaleString("tr-TR")} belirsiz`)}
+function startScan(selectedOnly=false){if(S.scan.running)return toast("Tarama zaten çalışıyor");const q=[...new Set((selectedOnly?ids():S.items.map((_,i)=>i)).map(i=>S.items[i]).filter(Boolean))];if(!q.length)return toast("Taranacak kanal yok");resetScan();S.scan.queue=q;S.scan.total=q.length;S.scan.start=Date.now();updateScanUI();toast(`${q.length.toLocaleString("tr-TR")} kanal taraması başladı`);scanLoop()}
 function togglePause(){if(!S.scan.running)return toast("Aktif tarama yok");S.scan.paused=!S.scan.paused;updateScanUI();toast(S.scan.paused?"Tarama duraklatıldı":"Tarama devam ediyor")}
 function cancelScan(){if(!S.scan.running)return;S.scan.cancel=true;S.scan.paused=false;updateScanUI();toast("Tarama iptal ediliyor…")}
 function closeDrops(e){document.querySelectorAll(".drop.open").forEach(d=>{if(!e||!d.contains(e.target))d.classList.remove("open")})}
@@ -920,19 +1176,41 @@ document.querySelectorAll(".drop>button").forEach(b=>b.addEventListener("click",
  e.preventDefault();e.stopPropagation();const d=b.parentElement;
  document.querySelectorAll(".drop.open").forEach(x=>{if(x!==d)x.classList.remove("open")});
  d.classList.toggle("open");
- if(d.id==="groupFilterDrop"&&d.classList.contains("open")){const m=d.querySelector(".menu"),r=b.getBoundingClientRect();m.style.position="fixed";m.style.left=Math.max(8,Math.min(r.left,innerWidth-m.offsetWidth-8))+"px";let top=r.bottom+4;if(top+m.offsetHeight>innerHeight-8)top=Math.max(8,r.top-m.offsetHeight-4);m.style.top=top+"px";}
+ if((d.id==="groupFilterDrop"||d.id==="cleanDrop")&&d.classList.contains("open")){const m=d.querySelector(".menu");requestAnimationFrame(()=>{const r=b.getBoundingClientRect();m.style.position="fixed";m.style.zIndex="3000";m.style.left=Math.max(8,Math.min(r.left,innerWidth-m.offsetWidth-8))+"px";let top=r.bottom+4;if(top+m.offsetHeight>innerHeight-8)top=Math.max(8,r.top-m.offsetHeight-4);m.style.top=top+"px";});}
 }));
 document.querySelectorAll(".drop .menu").forEach(m=>m.addEventListener("click",e=>e.stopPropagation()));
 document.addEventListener("click",()=>document.querySelectorAll(".drop.open").forEach(x=>x.classList.remove("open")));
 
-$("converterBtn").onclick=()=>{const w=window.open("TV-M3U-JSON-MD-Editor-FIXED.html","_blank");if(!w)toast("Yeni sekme açılamadı; tarayıcı açılır pencereyi engellemiş olabilir")};$("openBtn").onclick=()=>$("fileInput").click();$("fileInput").onchange=async e=>{const f=e.target.files[0];if(!f)return;$("progress").style.width="30%";const text=await f.text();S.items=parseM3U(text);S.mainItems=null;S.groupMode=false;S.newMode=false;S.newBaseItems=null;S.fileName=f.name;S.selected.clear();S.specialSelected.clear();S.previewed.clear();S.copied.clear();S.groupSelected.clear();S.openTabs.clear();S.openSeq=0;S.history=[];S.future=[];S.dirty=false;invalidateBackupCache();$("progress").style.width="100%";setTimeout(()=>$("progress").style.width="0",400);renderAll();$("fileInfo").innerHTML=`<b>${esc(f.name)}</b><br>${f.size.toLocaleString("tr-TR")} byte<br>${S.items.length.toLocaleString("tr-TR")} kanal`;toast(`${S.items.length.toLocaleString("tr-TR")} kanal yüklendi`)};
-$("saveBtn").onclick=saveFile;$("newBtn").onclick=()=>{if(S.dirty&&!confirm("Kaydedilmemiş değişiklik var. Yeni liste oluşturulsun mu?"))return;S.items=[];S.mainItems=null;S.groupMode=false;S.newMode=false;S.newBaseItems=null;S.selected.clear();S.specialSelected.clear();S.previewed.clear();S.copied.clear();S.groupSelected.clear();S.openTabs.clear();S.openSeq=0;S.history=[];S.future=[];S.fileName="yeni_liste.m3u";S.dirty=false;invalidateBackupCache();renderAll()};
-$("addBtn").onclick=()=>openEditor(-1);$("sortBtn").onclick=sortSelected;$("undoBtn").onclick=undo;$("redoBtn").onclick=redo;
-$("sameLinksBtn").onclick=openDupModal;$("selectHttp").onclick=()=>{selectHttp();closeDrops()};$("deleteSelectedHttp").onclick=()=>{deleteSelectedHttp();closeDrops()};
+$("openBtn").onclick=()=>$("fileInput").click();$("fileInput").onchange=async e=>{const f=e.target.files[0];if(!f)return;$("progress").style.width="30%";const text=await readTextFile(f);const parsed=parseM3U(text);if(!parsed.length){toast("Dosyada geçerli kanal bulunamadı; mevcut liste korundu");e.target.value="";$("progress").style.width="0";return}if(S.dirty&&!confirm("Kaydedilmemiş değişiklik var. Yeni dosya açılsın mı?")){e.target.value="";$("progress").style.width="0";return}if(S.scan.running)cancelScan();resetPreview();S.page=0;S.items=parsed;S.mainItems=null;S.groupMode=false;S.newMode=false;S.newBaseItems=null;S.fileName=f.name;S.selected.clear();S.specialSelected.clear();S.previewed.clear();S.copied.clear();S.groupSelected.clear();S.openTabs.clear();S.openSeq=0;S.history=[];S.future=[];S.dirty=false;invalidateBackupCache();$("progress").style.width="100%";setTimeout(()=>$("progress").style.width="0",400);renderAll();{const fi=$("fileInfo");if(fi)fi.innerHTML=`<b>${esc(f.name)}</b><br>${f.size.toLocaleString("tr-TR")} byte<br>${S.items.length.toLocaleString("tr-TR")} kanal`;}e.target.value="";toast(`${S.items.length.toLocaleString("tr-TR")} kanal yüklendi`)};
+$("appendListBtn").onclick=()=>$("appendFileInput").click();
+$("appendFileInput").onchange=async e=>{const f=e.target.files[0];if(!f)return;try{
+ const text=await readTextFile(f);
+ const added=parseM3U(text);
+ if(!added.length){toast("Eklenen listede geçerli kanal bulunamadı");e.target.value="";return;}
+ const beforeCount=S.items.length;
+ for(let p=0;p<added.length;p+=5000)S.items.push(...added.slice(p,p+5000));
+ S.dirty=true;
+ invalidateBackupCache();
+ // Büyük listelerde tam kopya almak (clone) tarayıcıyı gereksiz yere kilitliyordu.
+ // 10.000+ toplam kayıtta ekleme işlemini geçmişe kopyalamadan tamamla; liste işlevi korunur.
+ if(beforeCount+added.length<=10000){
+   S.history.push(S.items.slice(0,beforeCount).map(x=>({...x,attrs:{...(x.attrs||{})}})));
+   if(S.history.length>40)S.history.shift();
+   S.future=[];
+ }else{
+   S.future=[];
+ }
+ renderAll();
+ toast(`${added.length.toLocaleString("tr-TR")} kanal mevcut listenin sonuna eklendi`);
+ }catch(err){console.error(err);toast("Liste eklenemedi")}e.target.value=""};
+$("saveBtn").onclick=saveFile;$("newBtn").onclick=()=>{if(S.dirty&&!confirm("Kaydedilmemiş değişiklik var. Yeni liste oluşturulsun mu?"))return;S.items=[];S.mainItems=null;S.groupMode=false;S.newMode=false;S.newBaseItems=null;S.selected.clear();S.specialSelected.clear();S.previewed.clear();S.copied.clear();S.groupSelected.clear();S.openTabs.clear();S.openSeq=0;S.history=[];S.future=[];S.fileName="yeni_liste.m3u";S.dirty=false;invalidateBackupCache();resetPreview();resetListView();renderAll()};
+$("addBtn").onclick=()=>{const m=$("editorModal");if(m.classList.contains("show")){m.classList.remove("show");return}openEditor(-1)};$("sortBtn").onclick=sortSelected;$("undoBtn").onclick=undo;$("redoBtn").onclick=redo;
+$("dockPrev").onclick=()=>previewStep(-1);$("dockNext").onclick=()=>previewStep(1);$("dockCapture").onclick=capturePreview;$("dockTab").onclick=openPreviewTab;$("dockNative").onclick=()=>setPreviewMode($("dockNative").textContent.includes("HLS")?"native":"hls");$("dockIframe").onclick=()=>setPreviewMode("iframe");$("dockSubToggle").onclick=toggleSubtitles;$("dockSubSelect").onchange=e=>{if(e.target.value==='')disableSubtitles();else selectSubtitle(e.target.value)};
+$("sameLinksBtn").onclick=selectDuplicates;$("httpSelectBtn").onclick=()=>selectHttp();
 $("cleanNames").onclick=()=>{cleanNames();closeDrops()};$("cleanGroups").onclick=()=>{cleanGroups();closeDrops()};$("cleanLogos").onclick=()=>{cleanLogos();closeDrops()};$("cleanEpg").onclick=()=>{cleanEpg();closeDrops()};$("cleanInvalid").onclick=()=>{cleanInvalid();closeDrops()};$("cleanAll").onclick=()=>{cleanAll();closeDrops()};
 $("scanAll2").onclick=()=>startScan(false);$("scanSelected2").onclick=()=>startScan(true);$("scanStop2").onclick=togglePause;$("scanCancel2").onclick=cancelScan;
 $("search").oninput=e=>{S.search=e.target.value;applyFilters();updateStats()};$("clearSearch").onclick=()=>{$("search").value="";S.search="";renderAll()};$("statusFilter").onchange=applyFilters;$("sortFilter").onchange=applyFilters;$("groupsSelectAll").onclick=selectAllGroups;$("groupsExport").onclick=saveSelectedGroups;$("groupsClear").onclick=clearGroupFilters;$("groupsDelete").onclick=deleteSelectedGroups;$("groupChecks").addEventListener("change",e=>{const c=e.target.closest("[data-groupcheck]");if(c)toggleGroup(c.dataset.groupcheck,c.checked)});
-$("selectVisible").onclick=()=>{S.filtered.forEach(x=>S.selected.add(x.__i));renderAll()};$("selectNone").onclick=()=>{S.selected.clear();renderAll()};$("deleteSelectedBtn").onclick=deleteSelected;$("list").onscroll=renderRows;
+$("selectVisible").onclick=()=>{S.filtered.forEach(x=>S.selected.add(x.__i));renderAll()};$("selectNone").onclick=()=>{S.selected.clear();renderAll()};$("deleteSelectedBtn").onclick=deleteSelected;$("list").onscroll=()=>{if(document.querySelector(".inlineEdit"))return;renderRows()};
 $('rows').onclick=e=>{
  if(S.drag.suppressClick){S.drag.suppressClick=false;e.preventDefault();e.stopPropagation();return}
  const dragHandle=e.target.closest('.dragHandle');
@@ -962,23 +1240,311 @@ $('rows').onclick=e=>{
 };
 $("rows").addEventListener("dblclick",e=>{if(e.target.closest("[data-edit]"))return;const row=e.target.closest(".row");if(!row)return;const cb=row.querySelector("[data-check]");if(cb)preview(+cb.dataset.check)});
 $("rows").addEventListener("contextmenu",e=>{const row=e.target.closest(".row");if(!row)return;e.preventDefault();const cb=row.querySelector("[data-check]");const i=cb?+cb.dataset.check:null;if(i==null)return;if(!S.selected.has(i)){S.selected.clear();S.selected.add(i);renderRows()}showContext(i)});
-$("dupList").onclick=e=>{const b=e.target.closest("[data-dupcopy]");if(b)copyLink(+b.dataset.dupcopy)};$("dupList").onchange=e=>{const r=e.target.closest("[data-dupgroup]");if(r)dupKeep.set(Number(r.dataset.dupgroup),Number(r.value))};$("closePreview").onclick=closePreview;$("closeContext").onclick=()=>$("contextModal").classList.remove("show");$("copyM3U").onclick=()=>copyM3URecord(+$("contextModal").dataset.index);$("cancelDup").onclick=()=>$("dupModal").classList.remove("show");$("applyDup").onclick=applyDup;
-$("saveEditor").onclick=saveEditor;$("cancelEditor").onclick=()=>$("editorModal").classList.remove("show");$("editorModal").onclick=e=>{if(e.target===$("editorModal"))$("editorModal").classList.remove("show")};
+$("dupList").onclick=e=>{const b=e.target.closest("[data-dupcopy]");if(b)copyLink(+b.dataset.dupcopy)};$("dupList").onchange=e=>{const r=e.target.closest("[data-dupgroup]");if(r)dupKeep.set(Number(r.dataset.dupgroup),Number(r.value))};{const cp=$("closePreview");if(cp)cp.onclick=closePreview;}$("closeContext").onclick=()=>$("contextModal").classList.remove("show");$("copyM3U").onclick=()=>copyM3URecord(+$("contextModal").dataset.index);$("cancelDup").onclick=()=>{$("dupModal").classList.remove("show");dupBuildToken++;};$("applyDup").onclick=applyDup;
+$("saveEditor").onclick=saveEditor;$("cancelEditor").onclick=()=>$("editorModal").classList.remove("show");$("closeEditorTop").onclick=()=>$("editorModal").classList.remove("show");$("editorModal").onclick=e=>{if(e.target===$("editorModal"))$("editorModal").classList.remove("show")};
 document.addEventListener("keydown",e=>{
  const tag=document.activeElement.tagName,typing=tag==="INPUT"||tag==="TEXTAREA"||tag==="SELECT";
  if(e.ctrlKey&&e.key.toLowerCase()==="o"){e.preventDefault();$("fileInput").click()}
  else if(e.ctrlKey&&e.key.toLowerCase()==="s"){e.preventDefault();saveFile()}
  else if(e.ctrlKey&&e.key.toLowerCase()==="f"){e.preventDefault();$("search").focus();$("search").select()}
- else if(e.ctrlKey&&e.key.toLowerCase()==="a"&&!typing){e.preventDefault();S.filtered.forEach(x=>S.selected.add(x.__i));renderAll()}
+ else if(e.ctrlKey&&e.key.toLowerCase()==="a"&&!typing){e.preventDefault();(S.filteredAll||S.filtered).forEach(x=>S.selected.add(x.__i));renderAll()}
  else if(e.ctrlKey&&e.key.toLowerCase()==="z"){e.preventDefault();undo()}
  else if(e.ctrlKey&&e.key.toLowerCase()==="y"){e.preventDefault();redo()}
  else if(e.ctrlKey&&e.key==="Enter"&&!typing&&S.selected.size===1){e.preventDefault();openUrl(ids()[0])}
  else if(e.key==="Delete"&&!typing){e.preventDefault();deleteSelected()}
  else if(e.key==="Enter"&&!typing&&S.selected.size===1){e.preventDefault();openEditor(ids()[0])}
- else if(e.key==="Escape"){S.selected.clear();renderAll();$("editorModal").classList.remove("show");$("previewModal").classList.remove("show");$("contextModal").classList.remove("show")}
+ else if(e.key==="Escape"){cancelMoveMode();S.selected.clear();renderAll();$("editorModal").classList.remove("show");$("contextModal").classList.remove("show")}
 });
 setInterval(()=>{if(S.scan.running)updateScanUI()},500);
+// Robust modal controls
+function closeEditorModal(){const m=$("editorModal");if(m)m.classList.remove("show")}
+function closeContextModal(){const m=$("contextModal");if(m)m.classList.remove("show")}
+function closeDupModal(){const m=$("dupModal");if(m)m.classList.remove("show");dupBuildToken++}
+$("closeEditorTop").onclick=e=>{e.preventDefault();e.stopPropagation();closeEditorModal()};
+$("cancelEditor").onclick=e=>{e.preventDefault();e.stopPropagation();closeEditorModal()};
+$("saveEditor").onclick=e=>{e.preventDefault();e.stopPropagation();saveEditor()};
+$("closeContext").onclick=e=>{e.preventDefault();e.stopPropagation();closeContextModal()};
+$("copyM3U").onclick=e=>{e.preventDefault();e.stopPropagation();copyM3URecord(+$("contextModal").dataset.index)};
+$("cancelDup").onclick=e=>{e.preventDefault();e.stopPropagation();closeDupModal()};
+$("applyDup").onclick=e=>{e.preventDefault();e.stopPropagation();applyDup()};
+["editorModal","contextModal","dupModal"].forEach(id=>{const m=$(id);if(m)m.addEventListener("click",e=>{if(e.target===m){if(id==="editorModal")closeEditorModal();else if(id==="contextModal")closeContextModal();else closeDupModal()}})});
+document.addEventListener("pointerdown",function(e){
+ const ids=["editorModal","contextModal","dupModal"];
+ for(const mid of ids){const m=$(mid);if(m&&m.classList.contains("show")&&e.target===m){if(mid==="editorModal")closeEditorModal();else if(mid==="contextModal")closeContextModal();else closeDupModal();return;}}
+ if(!e.target.closest(".modal")){ if($("contextModal")?.classList.contains("show")) closeContextModal(); }
+},true);
+document.addEventListener("click",function(e){
+ const id=e.target&&e.target.id;
+ if(id==="closeEditorTop"){e.preventDefault();e.stopImmediatePropagation();closeEditorModal();return;}
+ if(id==="cancelEditor"){e.preventDefault();e.stopImmediatePropagation();closeEditorModal();return;}
+ if(id==="saveEditor"){e.preventDefault();e.stopImmediatePropagation();saveEditor();return;}
+ if(id==="closeContext"){e.preventDefault();e.stopImmediatePropagation();closeContextModal();return;}
+ if(id==="copyM3U"){e.preventDefault();e.stopImmediatePropagation();copyM3URecord(+$("contextModal").dataset.index);return;}
+ if(id==="cancelDup"){e.preventDefault();e.stopImmediatePropagation();closeDupModal();return;}
+ if(id==="applyDup"){e.preventDefault();e.stopImmediatePropagation();if(!e.target.disabled)applyDup();return;}
+},true);
+
 renderAll();
 </script>
 </body>
 </html>
+<style id="v74-layout-fix">
+/* v74: Clean menu always floats above the list controls; compact list toolbar without shrinking buttons */
+#cleanDrop > .menu{
+  position:fixed!important;
+  z-index:2147483000!important;
+  max-height:calc(100vh - 16px)!important;
+  overflow:auto!important;
+}
+#cleanDrop.open{z-index:2147483001!important}
+.listToolbar{
+  padding-left:2px!important;
+  padding-right:2px!important;
+  gap:3px!important;
+}
+.listToolbar > button,
+.listToolbar .groupFilterDrop > button{
+  padding:5px 8px!important;
+  font-size:11px!important;
+}
+.compactSearch{margin-left:auto!important;margin-right:0!important}
+</style>
+<script>
+/* v74: place Clean menu in viewport so it cannot hide behind the controls below */
+(function(){
+  const drop=document.getElementById('cleanDrop');
+  if(!drop) return;
+  const btn=drop.querySelector(':scope > button');
+  const menu=drop.querySelector(':scope > .menu');
+  if(!btn||!menu) return;
+  function placeCleanMenu(){
+    if(!drop.classList.contains('open')) return;
+    const r=btn.getBoundingClientRect();
+    menu.style.position='fixed';
+    menu.style.zIndex='2147483000';
+    menu.style.left=Math.max(6,Math.min(r.left,window.innerWidth-menu.offsetWidth-6))+'px';
+    const below=r.bottom+4;
+    const above=r.top-menu.offsetHeight-4;
+    menu.style.top=(below+menu.offsetHeight<=window.innerHeight-6 ? below : Math.max(6,above))+'px';
+  }
+  btn.addEventListener('click',()=>requestAnimationFrame(placeCleanMenu),true);
+  window.addEventListener('resize',placeCleanMenu);
+  window.addEventListener('scroll',placeCleanMenu,true);
+})();
+</script>
+
+<style id="v75-fix">
+/* v75: compact toolbar without changing button dimensions */
+.listToolbar{padding-top:2px!important;padding-bottom:2px!important;padding-left:0!important;padding-right:0!important;gap:3px!important}
+.listToolbar .compactSearch{margin-right:0!important}
+/* v75: portal clean menu above every list layer */
+.cleanMenuPortal{position:fixed!important;z-index:2147483647!important;display:block!important;margin:0!important}
+</style>
+<script>
+/* v75: keep Clean menu out of clipping/stacking contexts */
+(function(){
+  const drop=document.getElementById('cleanDrop');
+  if(!drop) return;
+  const btn=drop.querySelector(':scope > button');
+  const menu=drop.querySelector(':scope > .menu');
+  if(!btn||!menu) return;
+  const home=menu.parentNode, next=menu.nextSibling;
+  let portaled=false;
+  function restore(){
+    if(!portaled)return;
+    menu.classList.remove('cleanMenuPortal');
+    menu.style.cssText='';
+    if(next) home.insertBefore(menu,next); else home.appendChild(menu);
+    portaled=false;
+  }
+  function place(){
+    if(!drop.classList.contains('open')){restore();return;}
+    if(!portaled){document.body.appendChild(menu);portaled=true;}
+    menu.classList.add('cleanMenuPortal');
+    menu.style.left='0px';menu.style.top='0px';
+    const r=btn.getBoundingClientRect();
+    const mw=menu.offsetWidth, mh=menu.offsetHeight;
+    let left=Math.max(6,Math.min(r.left,window.innerWidth-mw-6));
+    let top=r.bottom+4;
+    if(top+mh>window.innerHeight-6) top=Math.max(6,r.top-mh-4);
+    menu.style.left=left+'px';menu.style.top=top+'px';
+  }
+  btn.addEventListener('click',()=>setTimeout(place,0),false);
+  menu.addEventListener('click',()=>setTimeout(()=>{if(!drop.classList.contains('open'))restore();},0),false);
+  document.addEventListener('click',()=>setTimeout(()=>{if(!drop.classList.contains('open'))restore();},0),false);
+  window.addEventListener('resize',()=>{if(portaled)place();});
+  window.addEventListener('scroll',()=>{if(portaled)place();},true);
+})();
+
+/* v75: channel changes preserve the manually selected preview mode */
+</script>
+
+<style id="v77-layout">
+*{scrollbar-width:thin;scrollbar-color:#26344f #0a1120}
+*::-webkit-scrollbar{width:7px;height:7px}
+*::-webkit-scrollbar-track{background:#0a1120}
+*::-webkit-scrollbar-thumb{background:#26344f;border-radius:6px}
+*::-webkit-scrollbar-thumb:hover{background:#3a5176}
+*::-webkit-scrollbar-corner{background:#0a1120}
+
+body{font-size:14px}
+header{padding:3px 8px!important;gap:8px!important;min-height:0!important}
+.logo{font-size:15px!important;line-height:1.1}
+.filename{font-size:12px}
+.headerMainTools button{padding:3px 8px!important;font-size:12px!important;line-height:1.2!important;min-height:0!important}
+.listToolbar{padding:2px 4px!important;gap:3px!important}
+.listToolbar>button,.listToolbar .groupFilterDrop>button{padding:3px 8px!important;font-size:12px!important;line-height:1.2!important;min-height:0!important}
+.listToolbar .searchbar{padding:0!important;border:0!important;gap:3px}
+.listToolbar .searchbar input{padding:3px 8px!important;font-size:12px}
+.listToolbar .searchbar button{padding:3px 8px!important;font-size:12px!important;line-height:1.2!important}
+.listToolbar .groupFilterDrop{margin-left:0!important}
+.listToolbar #sameLinksBtn{background:#173452;border-color:#2d638e}
+.listToolbar #httpSelectBtn{background:#2f3b52;border-color:#52627f}
+
+.listStage{grid-template-columns:minmax(0,1fr) auto!important;gap:6px!important}
+.tableHead,.row{grid-template-columns:34px var(--numw,38px) minmax(100px,2fr) minmax(44px,.8fr) 44px 44px minmax(50px,.9fr) 128px!important}
+.tableHead{font-size:12px!important}
+.tableHead span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .num{font-size:16px!important}
+.row .name{font-size:16px!important}
+.row .cell.muted{font-size:13px!important}
+.row .cell.url{font-size:13px!important}
+.rowBtns button{font-size:13px!important}
+
+.cell.editing{overflow:visible!important;position:relative;z-index:40}
+.cell.editing .inlineEdit{position:absolute;top:50%;transform:translateY(-50%);left:0;width:360px;max-width:80vw;z-index:60;font-size:14px;box-shadow:0 8px 24px #000a}
+.cell.editing[data-edit="name"] .inlineEdit{width:380px}
+.cell.editing[data-edit="url"] .inlineEdit,.cell.editing[data-edit="logo"] .inlineEdit,.cell.editing[data-edit="tvgId"] .inlineEdit{left:auto;right:0}
+.cell.editing[data-edit="url"] .inlineEdit{width:400px}
+
+/* önizleme: genişlik JS ile video oranına göre ayarlanır, ekran kenarsız dolar */
+.previewDock{position:relative!important;top:auto!important;align-self:start!important;height:auto!important;display:flex!important;flex-direction:column!important;min-height:0!important;width:480px}
+.previewDockStage{position:relative;flex:none;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden}
+.previewDockStage .previewDockVideo,.previewDockStage .previewIframe{position:absolute;left:0;top:0;width:100%!important;height:100%!important;transform:none;object-fit:contain;background:#000;border:0}
+.previewDockHead h3{font-size:17px!important}
+.previewDockUrl{display:none!important}
+
+/* kontrol satırı: altyazı + sekmede aç + modlar, küçük */
+.previewDockControls{display:flex!important;flex-wrap:wrap!important;gap:4px!important;align-items:center;padding:4px 6px!important}
+.previewDockControls button,.previewDockControls select{flex:none!important;min-width:0!important;min-height:0!important;height:24px;padding:0 8px!important;font-size:11px!important;line-height:1.1!important}
+.previewDockControls select{width:auto;max-width:90px;background:#0a1120;color:#e6edf7;border:1px solid #2a3b5a;border-radius:6px;padding:0 3px!important}
+.previewDockControls .statePill{font-size:10px;padding:0 5px;min-width:28px}
+.previewDockControls .modeDot{display:none}
+#dockNative[data-mode="native"]{background:#1d5fb5!important;border:1px solid #5aa2f0!important;color:#fff;box-shadow:none!important}
+#dockNative[data-mode="hls"]{background:#7a3fc4!important;border:1px solid #b88af2!important;color:#fff;box-shadow:none!important}
+#dockNative[data-mode="iframe"]{background:#232c3e!important;border:1px solid #3a4a66!important;color:#8fa0bb;box-shadow:none!important}
+#dockIframe.activeMode{background:#a35f12!important;border:1px solid #f2ad55!important;color:#fff;box-shadow:none!important}
+.previewDockStatus{padding:2px 7px!important;font-size:10px!important;min-height:0!important}
+
+@media (max-aspect-ratio:1/1),(max-width:900px){
+ .listStage{grid-template-columns:minmax(0,1fr)!important;grid-template-rows:auto minmax(0,1fr)!important;overflow:hidden!important}
+ .previewDock{order:-1;justify-self:center}
+ .tableHead,.row{grid-template-columns:34px var(--numw,38px) minmax(110px,2fr) minmax(60px,.9fr) 50px 50px minmax(80px,1.2fr) 128px!important}
+}
+</style>
+
+<script>
+/* v77: video oranına göre önizleme genişliğini ayarla; ekran kenarsız dolsun */
+(function(){
+ const ls=document.querySelector('.listStage'),dock=document.getElementById('previewDock'),stage=document.getElementById('previewStage'),v=document.getElementById('previewVideo');
+ if(!ls||!dock||!stage||!v)return;
+ const portraitMQ=window.matchMedia('(max-aspect-ratio:1/1),(max-width:900px)');
+ let ratio=16/9;
+ function once(){
+  if(v.videoWidth&&v.videoHeight)ratio=v.videoWidth/v.videoHeight;
+  stage.style.aspectRatio=String(ratio);
+  const LW=ls.clientWidth,LH=ls.clientHeight;if(!LW||!LH)return;
+  const ctrl=Math.max(0,dock.offsetHeight-stage.offsetHeight);
+  let w;
+  if(portraitMQ.matches){w=Math.min(LW-2,Math.max(140,(LH*0.55-ctrl))*ratio)}
+  else{w=Math.min((LH-ctrl-2)*ratio,LW-(560+Math.max(0,(parseInt(getComputedStyle(document.documentElement).getPropertyValue("--numw"))||38)-38))-6);w=Math.max(w,340)}
+  dock.style.width=Math.floor(w)+'px';
+ }
+ function fit(){once();once()}
+ ['loadedmetadata','loadeddata','resize'].forEach(ev=>v.addEventListener(ev,fit));
+ window.addEventListener('resize',fit);window.addEventListener('orientationchange',()=>setTimeout(fit,150));
+ if(window.ResizeObserver)new ResizeObserver(fit).observe(ls);
+ fit();
+ /* Tek tuş: Native <-> HLS. iFrame modundayken son video moduna döner. */
+ const nb=document.getElementById('dockNative');
+ if(nb)nb.onclick=()=>{const cur=window.__m3uPreviewMode||'native';const last=/HLS/.test(nb.textContent)?'hls':'native';
+  if(cur==='iframe')setPreviewMode(last);else setPreviewMode(cur==='hls'?'native':'hls');};
+})();
+</script>
+
+<style id="v78">
+.app{grid-template-rows:auto auto minmax(0,1fr) auto!important}
+main{min-height:0}
+#previewVideo{border-radius:0!important;margin:0!important;max-height:none!important}
+.previewDock:not(.playing) #previewVideo{visibility:hidden}
+.previewDock:not(.playing) .previewDockStage{background:#0b1322}
+.previewDock:not(.playing) .previewDockStage::after{content:"Önizleme için bir kanal seçin";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#7f93b3;font-size:14px}
+.pager{display:flex;flex-wrap:wrap;align-items:center;gap:4px;padding:3px 6px;border-top:1px solid var(--line);background:#0b1424;flex:none}
+.pager button{height:24px;padding:0 8px!important;font-size:11px!important;line-height:1.1!important;min-height:0!important}
+.pager button:disabled{opacity:.4}
+.pager input[type=number]{width:54px;height:24px;background:#0a1120;color:#e6edf7;border:1px solid #2a3b5a;border-radius:6px;padding:0 4px;font-size:12px}
+.pager select{height:24px;background:#0a1120;color:#e6edf7;border:1px solid #2a3b5a;border-radius:6px;font-size:12px}
+.pager .pgSp{flex:1}
+.pager .pgInfo{color:#aebbd0;font-size:12px}
+.pager .pgMid,.pager label{font-size:12px;color:#d5deeb;display:flex;align-items:center;gap:4px}
+</style>
+<script>
+(function(){
+ const $=id=>document.getElementById(id);
+ $("pgFirst").onclick=()=>goPage(0,false);
+ $("pgLast").onclick=()=>goPage(1e9,true);
+ $("pgPrev").onclick=()=>{if(!S.pageSize){const l=$("list");l.scrollTop=Math.max(0,l.scrollTop-l.clientHeight+S.rowH);return}goPage((S.page||0)-1,false)};
+ $("pgNext").onclick=()=>{if(!S.pageSize){const l=$("list");l.scrollTop=l.scrollTop+l.clientHeight-S.rowH;return}goPage((S.page||0)+1,false)};
+ $("pageNum").onchange=e=>goPage((parseInt(e.target.value,10)||1)-1,false);
+ $("pageSize").onchange=e=>{S.pageSize=parseInt(e.target.value,10)||0;S.page=0;applyPaging();renderRows();$("list").scrollTop=0;renderRows()};
+ const tt=$("previewVideo").textTracks;
+ if(tt&&tt.addEventListener){tt.addEventListener('addtrack',()=>setTimeout(refreshSubtitleTracks,80));tt.addEventListener('removetrack',()=>setTimeout(refreshSubtitleTracks,80))}
+ updatePager();
+})();
+</script>
+
+<script>
+(function(){
+ const v=document.getElementById('previewVideo'),st=t=>{const e=document.getElementById('dockStatus');if(e)e.textContent=t};
+ v.addEventListener('playing',()=>st('Oynatılıyor · '+((window.__m3uPreviewMode||'native')==='hls'?'HLS':'Native')));
+ v.addEventListener('waiting',()=>{if(!v.paused)st('Arabelleğe alınıyor…')});
+ v.addEventListener('error',()=>{
+  if(!v.getAttribute('src')&&!previewHls)return;
+  const mode=window.__m3uPreviewMode||'native',url=window.__previewUrl||'';
+  if(mode==='native'&&/\.m3u8?(\?|$)/i.test(url)&&!window.__fbTried){window.__fbTried=true;st('Native desteklemiyor — HLS deneniyor');setPreviewMode('hls');return}
+  st('Yayın oynatılamadı (biçim, erişim ya da CORS engeli) — iFrame veya Sekmede aç deneyin');
+ });
+ window.addEventListener('beforeunload',e=>{if(S.dirty){e.preventDefault();e.returnValue=''}});
+})();
+</script>
+
+<style id="v79">
+#dockPrev{background:#a35f12!important;border:1px solid #f2ad55!important;color:#fff!important}
+#dockNext{background:#1f8a5a!important;border:1px solid #4fd69b!important;color:#fff!important}
+#dockPrev:hover{background:#c27418!important}
+#dockNext:hover{background:#27a56e!important}
+*{scrollbar-color:#8da2c3 #0a1120}
+*::-webkit-scrollbar-thumb{background:#8da2c3}
+*::-webkit-scrollbar-thumb:hover{background:#b9c9e3}
+.row .num,.tableHead span:nth-child(2){white-space:nowrap;overflow:visible;text-overflow:clip}
+.row .num{padding-right:2px;font-variant-numeric:tabular-nums}
+</style>
+
+<style id="v80">
+#dockLast{background:#0e7490!important;border:1px solid #38bdf8!important;color:#fff!important;white-space:nowrap}
+#dockLast:hover:not(:disabled){background:#1291b3!important}
+#dockLast:disabled{opacity:.4;filter:saturate(.3);cursor:default}
+.previewDockHead h3{flex:1 1 0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.previewDockHead button{flex:none}
+</style>
+<script>
+(function(){
+ const b=document.getElementById('dockLast');if(!b)return;
+ const idx=()=>window.__prevUid==null?-1:S.items.findIndex(y=>y.uid===window.__prevUid);
+ window.__updLast=function(){const k=idx();b.disabled=k<0;b.title=k>=0?`Son izlenen kanala dön: ${k+1}. ${S.items[k].name||''}`:'Son izlenen kanal yok'};
+ b.onclick=()=>{const k=idx();if(k<0){window.__updLast();return toast('Son izlenen kanal bulunamadı')}preview(k);window.__updLast()};
+ const _p=window.preview;window.preview=function(i){const r=_p.apply(this,arguments);window.__updLast();return r};
+ window.__updLast();
+})();
+</script>
+
